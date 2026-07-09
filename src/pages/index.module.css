@@ -8,6 +8,22 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  /* The UniVersus card-back vortex, darkened so the title and tiles stay legible. */
+  background-image: linear-gradient(
+      180deg,
+      rgba(11, 10, 26, 0.66) 0%,
+      rgba(11, 10, 26, 0.5) 46%,
+      rgba(11, 10, 26, 0.74) 100%
+    ),
+    url('../img/universus-hero.jpg');
+  background-size: cover;
+  background-position: center 42%;
+  background-repeat: no-repeat;
+  color: #eaf1fb;
+}
+
+.heroBanner :global(.hero__title) {
+  color: #ffffff;
 }
 
 @media screen and (max-width: 996px) {
@@ -16,13 +32,87 @@
   }
 }
 
-.heroCount {
-  opacity: 0.9;
-  margin-bottom: 1.5rem;
+/* Keep the hero title on a single line on narrow screens. */
+@media screen and (max-width: 600px) {
+  .heroBanner :global(.hero__title) {
+    font-size: 1.9rem;
+    white-space: nowrap;
+  }
 }
 
-.buttons {
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 340px;
+  margin: 2rem auto 0;
+}
+
+/* One row of four on wider screens; 2x2 on mobile. */
+@media screen and (min-width: 768px) {
+  .tiles {
+    grid-template-columns: repeat(4, 150px);
+    gap: 1.25rem;
+    max-width: none;
+    justify-content: center;
+  }
+}
+
+.tile {
+  position: relative;
+  aspect-ratio: 1 / 1;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+  padding: 0.7rem;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #16183a; /* Tile Navy — fallback behind the art */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.tile:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+  text-decoration: none;
+}
+
+/* The card art fills the tile; object-position frames the illustration
+   (UVS art sits in the upper-middle of the card). */
+.tileArt {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 34%;
+  transform: scale(1.55);
+  transform-origin: center 34%;
+  transition: transform 0.3s ease;
+}
+
+.tile:hover .tileArt {
+  transform: scale(1.68);
+}
+
+/* Dark gradient at the bottom keeps the label readable over any art. */
+.tileScrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 35%,
+    rgba(0, 0, 0, 0.85) 100%
+  );
+}
+
+.tileLabel {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
 }

@@ -4,27 +4,34 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* Palette sampled from the UniVersus card back (fire-and-ice vortex).
+   Accent = cobalt on light, ice-blue on dark. See Reference/palette-demo.html. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #2b5b9e; /* Cobalt */
+  --ifm-color-primary-dark: #27528e;
+  --ifm-color-primary-darker: #254d86;
+  --ifm-color-primary-darkest: #1e406f;
+  --ifm-color-primary-light: #406ba8;
+  --ifm-color-primary-lighter: #4b74ad;
+  --ifm-color-primary-lightest: #6b8cbb;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Void navy footer in both themes (the black-hole center). */
+  --ifm-footer-background-color: #100e2b;
+  --ifm-footer-link-hover-color: #5f9ad0;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Lighter ice-blue accent in dark mode so it stays readable on navy. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #5f9ad0; /* Ice Blue */
+  --ifm-color-primary-dark: #558bbb;
+  --ifm-color-primary-darker: #5183b0;
+  --ifm-color-primary-darkest: #426c91;
+  --ifm-color-primary-light: #6fa4d4;
+  --ifm-color-primary-lighter: #77a9d7;
+  --ifm-color-primary-lightest: #8fb8de;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-footer-background-color: #100e2b;
 }

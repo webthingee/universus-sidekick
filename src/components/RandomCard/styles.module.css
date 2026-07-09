@@ -1,0 +1,60 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 2.5rem 1rem 3rem;
+}
+
+.card {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  line-height: 0;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.35);
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.shuffle {
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.45rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  /* Flare Orange — the one warm accent from the palette. */
+  background: #eb5c14;
+  color: #1a0a00;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.shuffle:hover {
+  background: #f6a204; /* Amber */
+  transform: translateY(-1px);
+}
+
+.credit {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
