@@ -1,0 +1,515 @@
+.page {
+  width: 100%;
+  max-width: 820px;
+  /* width:100% (not shrink-to-content) stops `margin:0 auto` from letting this
+     flex item size to the no-wrap chip scroller and overflow the viewport. */
+  min-width: 0;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.pageTitle {
+  margin-bottom: 0.35rem;
+}
+
+.pageSubtitle {
+  color: var(--ifm-color-emphasis-700);
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+/* --- sticky controls --- */
+.controls {
+  position: sticky;
+  top: var(--ifm-navbar-height, 60px);
+  z-index: 5;
+  padding: 0.75rem 0;
+  margin-bottom: 1rem;
+  background: color-mix(in srgb, var(--ifm-background-color) 88%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.controlsRow {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.searchWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0; /* allow the search to shrink so the row fits narrow screens */
+}
+
+/* --- view toggle (Cards / A–Z) --- */
+.viewToggle {
+  display: flex;
+  flex-shrink: 0;
+  padding: 3px;
+  gap: 2px;
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 999px;
+}
+
+.viewBtn {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+  background: transparent;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.12s ease;
+}
+
+.viewBtnActive {
+  color: var(--ifm-button-color, #fff);
+  background: var(--ifm-color-primary);
+}
+
+.searchIcon {
+  position: absolute;
+  left: 0.85rem;
+  font-size: 0.95rem;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.search {
+  width: 100%;
+  min-width: 0;
+  padding: 0.7rem 2.4rem;
+  font-size: 1rem;
+  color: var(--ifm-font-color-base);
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 999px;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.search:focus {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--ifm-color-primary) 22%, transparent);
+}
+
+.clearBtn {
+  position: absolute;
+  right: 0.6rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  display: grid;
+  place-items: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--ifm-color-emphasis-700);
+  background: var(--ifm-color-emphasis-200);
+}
+
+.clearBtn:hover {
+  background: var(--ifm-color-emphasis-300);
+}
+
+.chipsScroller {
+  position: relative;
+  margin-top: 0.7rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.4rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.chips::-webkit-scrollbar {
+  display: none;
+}
+
+/* fade + arrow shown only when chips overflow off that edge */
+.chipNav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2.4rem;
+  display: grid;
+  place-items: center;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  padding: 0;
+  z-index: 2;
+}
+
+.chipNavLeft {
+  left: 0;
+  justify-items: start;
+  padding-left: 0.15rem;
+  background: linear-gradient(
+    to right,
+    var(--ifm-background-color) 35%,
+    transparent
+  );
+}
+
+.chipNavRight {
+  right: 0;
+  justify-items: end;
+  padding-right: 0.15rem;
+  background: linear-gradient(
+    to left,
+    var(--ifm-background-color) 35%,
+    transparent
+  );
+}
+
+.chip {
+  flex-shrink: 0;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-800);
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.12s ease;
+}
+
+.chip:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+.chipActive {
+  color: var(--ifm-button-color, #fff);
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.count {
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* --- list & cards --- */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.card {
+  padding: 1.1rem 1.25rem;
+  background: var(--ifm-card-background-color, var(--ifm-background-surface-color));
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 14px;
+  scroll-margin-top: calc(var(--ifm-navbar-height, 60px) + 5.5rem);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-emphasis-400);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.badges {
+  display: flex;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.keywordBadge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  color: #fff;
+  background: var(--ifm-color-danger, #e5484d);
+}
+
+.letterBadge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+  color: var(--ifm-color-emphasis-700);
+  background: var(--ifm-color-emphasis-200);
+}
+
+.para {
+  margin: 0 0 0.6rem;
+  line-height: 1.6;
+}
+
+.para:last-of-type {
+  margin-bottom: 0;
+}
+
+.bullets {
+  margin: 0.4rem 0 0.7rem;
+  padding-left: 1.2rem;
+  line-height: 1.55;
+}
+
+.bullets li {
+  margin-bottom: 0.25rem;
+}
+
+.example,
+.note {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-top: 0.6rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.example {
+  background: color-mix(in srgb, var(--ifm-color-primary) 8%, transparent);
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+.note {
+  background: var(--ifm-color-emphasis-100);
+  border-left: 3px solid var(--ifm-color-emphasis-400);
+}
+
+.calloutLabel {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.seeAlso {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.9rem;
+  padding-top: 0.7rem;
+  border-top: 1px dashed var(--ifm-color-emphasis-300);
+}
+
+.seeAlsoLabel {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-600);
+  margin-right: 0.1rem;
+}
+
+.seeAlsoLink {
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  color: var(--ifm-color-primary);
+  background: color-mix(in srgb, var(--ifm-color-primary) 10%, transparent);
+  text-decoration: none;
+}
+
+.seeAlsoLink:hover {
+  background: color-mix(in srgb, var(--ifm-color-primary) 20%, transparent);
+  text-decoration: none;
+}
+
+.empty {
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+  padding: 3rem 0;
+}
+
+/* --- A–Z list view --- */
+.indexWrap {
+  position: relative;
+}
+
+.indexList {
+  display: flex;
+  flex-direction: column;
+  /* leave room for the alphabet rail on the right */
+  padding-right: 1.4rem;
+}
+
+.section {
+  margin-bottom: 0.25rem;
+}
+
+.sectionHeader {
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--ifm-color-primary);
+  padding: 0.6rem 0.25rem 0.3rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.row {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+}
+
+.rowHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.72rem 0.35rem;
+  font-size: 1rem;
+  text-align: left;
+  color: inherit;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.rowName {
+  flex: 1;
+  font-weight: 600;
+}
+
+.kwDot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--ifm-color-danger, #e5484d);
+}
+
+.chevron {
+  flex-shrink: 0;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--ifm-color-emphasis-500);
+  transition: transform 0.15s ease;
+}
+
+.chevronOpen {
+  transform: rotate(90deg);
+}
+
+.rowBody {
+  padding: 0.1rem 0.35rem 1rem;
+}
+
+/* --- alphabet scrubber rail --- */
+.scrubber {
+  position: fixed;
+  right: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.2rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ifm-background-color) 70%, transparent);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+.scrubLetter {
+  font-size: 0.63rem;
+  line-height: 1.16;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  padding: 0 0.15rem;
+  transition: transform 0.08s ease;
+}
+
+.scrubLetterOff {
+  color: var(--ifm-color-emphasis-400);
+}
+
+.scrubLetterActive {
+  transform: scale(1.5);
+}
+
+.scrubBubble {
+  position: fixed;
+  right: 2.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3.2rem;
+  height: 3.2rem;
+  display: grid;
+  place-items: center;
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #fff;
+  background: var(--ifm-color-primary);
+  border-radius: 16px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+
+/* --- cross-reference flash --- */
+@keyframes cardFlash {
+  0% {
+    box-shadow: 0 0 0 3px var(--ifm-color-primary);
+    border-color: var(--ifm-color-primary);
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+.flash {
+  animation: cardFlash 1.5s ease-out;
+}
+
+@media (max-width: 700px) {
+  .cardHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+}

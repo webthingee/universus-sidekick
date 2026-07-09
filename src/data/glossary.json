@@ -1,0 +1,3104 @@
+[
+  {
+    "slug": "abilities",
+    "name": "Abilities",
+    "definition": "An ability can be line(s) of text printed on a card, or given to a card via certain keywords or effects.\n\nAbilities are either played or continuous. (see: Played Abilities and Continuous Abilities)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "A"
+  },
+  {
+    "slug": "ability-that",
+    "name": "Ability That _____",
+    "definition": "If an effect refers to \"an ability that\" does something, it is referring to the possible results of the ability in general. If an ability can cause a result in any situation, it counts as an ability that causes that result. It does not matter what the result of one specific use of the ability is.\n\nThis ability has the possible result of reducing damage. Therefore it counts as \"an ability that reduces damage\". It also counts as an ability that increases speed, among other things.\n\nTherefore, the above enhance on You're So Obvious [MHA01-9] can be responded to by Fighting Spirit [MHA02-53] which has the ability 'Response Flip: After your rival plays a non-character ability that reduces the damage of an attack, cancel it.')",
+    "examples": [
+      "You're So Obvious has the ability 'Enhance Destroy: Return this attack to its printed damage. If it is a Punch attack, it gets +2 speed.'."
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "A"
+  },
+  {
+    "slug": "action",
+    "name": "Action",
+    "definition": "Actions are one of the six card types.\n\nPlaying and passing an action card is an added cost to playing one of its abilities from your hand. You can't play the card otherwise, save for blocking with it.\n\nYou play an action card's abilities from your hand. You can't normally play them from anywhere else.\n\nplay an ability on an Action card in that zone, provided it follows all other rules on playing an action. (For instance, you cannot play a Form during the Enhance Step, or an Enhance during a Response window.)\n\nIf an ability on an action has costs, you pay those costs before trying to play the action. If you fail the check to play it, any other costs you've paid are still spent.",
+    "examples": [
+      "Capture Evil-Doers has a Form ability and an Enhance ability. This means you can play one of those abilities straight from your hand, at the usual timing for each type of ability. When you do, you will need to play Capture Evil-Doers into your card pool, and pass a check against a difficulty of 2 plus progressive. If you fail, discard the action card, and you don't get the effect of the ability you were trying to play."
+    ],
+    "notes": [],
+    "bullets": [
+      "If an effect allows you to play cards from another specific zone, you may"
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "active-player",
+    "name": "Active Player",
+    "definition": "The player whose turn it is.\n\nThe active player:",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Has the first priority to play a response ability in any response window.",
+      "Clears their card pool first.",
+      "Handles their fired, modifier, and rule effects first (in any order they choose), when both players have such effects to apply."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "additional-costs",
+    "name": "Additional Costs",
+    "definition": "Additional costs are costs created by card effects. They must be paid when taking the described action.\n\nAdditional costs to play a card are paid before you make the control check.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "ally",
+    "name": "Ally",
+    "definition": "A keyword trait. (see: Keyword Traits)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "as-though",
+    "name": "As Though",
+    "definition": "Some effects state that a player may do something \"as though\" some condition were true or a player can do something \"as though\" some condition were true. This applies only to the stated effect. For purposes of that effect, treat the game exactly as if the stated condition were true. For all other purposes, treat the game normally.",
+    "examples": [
+      "Spellstorm allows a player to flip Spell cards in their card pool \"as though you were spending momentum to pay for this attack's keyword abilities.\" Mitchell Cimino character card has the response \"After you spend 1 or more momentum, remove them. Add the cards removed this way to your hand at the start of the End Phase.\" Due to Spellstorm's effect, the game only treats the flipped cards as spending momentum for the explicit purposes of paying the cost of keyword abilities. It does not change the act of flipping Spell cards in the card pool into spending momentum for all game references. Mitchell Cimino's response ability is looking for cards to actually be spent from momentum."
+    ],
+    "notes": [],
+    "bullets": [
+      "If an effect allows a player to pay an alternate cost to play an ability, it does not change the activity of the cost to the normal activity."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "asset",
+    "name": "Asset",
+    "definition": "Assets are one of the six card types.\n\nYou play assets as a form into the card pool during the Combat Phase, and they get built into the stage during the end phase. (just like foundations)\n\nUnlike foundations, you can't commit assets to pass checks.\n\nIf a card counts or refers to your assets, it means assets in your stage.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "assigned-effect",
+    "name": "Assigned Effect",
+    "definition": "Assigned effects are one of the three effect states. (An effect's \"state\" dictates how it behaves if related cards move or change. see: Effect States)\n\nAny non-static effect that is specific to a particular card, is an assigned effect.\n\nAssigned effects end when:\n\nThis ability creates an assigned effect on the chosen foundation. It will end when the Enhance Step ends, or if the chosen foundation changes zones.)",
+    "examples": [
+      "Natural Leader has the ability \"First Enhance: Choose 1 rival foundation. Abilities on the chosen card can not be played for the rest of the Enhance Step.\""
+    ],
+    "notes": [
+      "assigned effects do not end if the card flips or unflips."
+    ],
+    "bullets": [
+      "They finish executing, or can no longer do so.",
+      "A point specified by the effect is reached.",
+      "The turn ends.",
+      "The card the effect is assigned to changes zones."
+    ],
+    "seeAlso": [
+      "effect-states"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "attack",
+    "name": "Attack",
+    "definition": "Attacks are one of the six card types.\n\nYou play attacks as a form into the card pool during the Combat Phase. They either go to momentum (if they deal damage) or get discarded during the End Phase.\n\nAttacks have three unique properties - speed, damage and attack zone. These can't be modified unless the attack is inside of its attack sequence, or just got played and is about to enter one.\n\nEnhance abilities on an attack are playable during that attack's Enhance Step.\n\nResponse abilities on attacks are playable during that attack's attack sequence.\n\n\"During an attack\" means to be during the attack sequence.\n\nA player or backup is considered attacked after the attack has been played.\n\nAbilities that respond to the attack being played (which trigger before the attack sequence starts) will be usable. Anything that triggers on the attack resolving will also be usable.)\n\n\"This attack\" on a non-attack card, or an enhance ability, means the attack currently in progress (in its attack sequence, being played, was just played, or just resolved).\n\nIn a continuous or response ability on an attack, \"This attack\" only refers to the attack the ability is on.\n\n\"Your attack\" or \"Your rival's attack\" (in any scenario) refer to the attack in progress, provided it is either yours or your rival's, respectively.",
+    "examples": [
+      "Erase's Response says \"your rival cannot play abilities on their character during this attack.\" This means that they can't play abilities on their character during the Enhance Step, Block Step or Damage Step."
+    ],
+    "notes": [
+      "Universus CCG does not have \"targeting\". This means you are free to play \"your attack\" abilities during your rival's attack, even if the effect would fail to do anything."
+    ],
+    "bullets": [
+      "You may choose to discard an attack that dealt damage during the End Phase, if you don't want the momentum.",
+      "If an attack is in the process of being played, instead of a modification failing to occur, it happens once the attack is played (if successful).",
+      "For attacks added to the attack stack that are not played, any relevant pending continuous or fired effects will apply once the attack enters the attack sequence."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "attack-sequence",
+    "name": "Attack Sequence",
+    "definition": "The attack sequence starts after you play an attack.\n\nNote that any fired effects or responses to playing an attack happen before the attack sequence begins.\n\nThe attack sequence contains the Enhance Step, Block Step, and Damage Step (in that order).\n\nIf you are attacking a backup, skip the Block Step and proceed from the Enhance Step to the Damage Step immediately.\n\nAfter the Damage Step, the attack is resolved.\n\nIf an attack leaves the card pool or changes facing during its attack sequence, but before the Damage Step, it becomes a dropped attack.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Dropped attacks end their attack sequence at the next opportunity. (see: Dropped Attack)"
+    ],
+    "seeAlso": [
+      "dropped-attack"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "attack-stack",
+    "name": "Attack Stack",
+    "definition": "Whenever an attack is played, but not as a cost, it is added to an abstract list called the \"attack stack\".\n\nNote: This is not a game zone. It has no impact on play other than keeping track of which attacks occur in which order should there be multiple attacks pending at once.\n\nSome effects (like Beauregard Lionett, Expositor's enhance ability) create attacks during a current attack. Attacks created in the middle of a current attack are added to the Attack Stack. These attacks are not considered played.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "There is only one attack stack, shared by both players.",
+      "A card cannot be added to the attack stack unless it is an attack in the card pool.",
+      "Attacks on the attack stack are called \"pending attacks\".",
+      "Whenever a form could otherwise be played, (points 1 through 3 are all true) enter an attack sequence for the pending attack most recently added to the attack stack, and remove it from the stack. 7",
+      "If a pending attack leaves the card pool or gets turned face down, remove it from the attack stack.",
+      "If more than one attack is to be added to the attack stack at the same time, add them starting with the rightmost attack in the card pool and moving left. Note: This means that when that group of attacks begin to initiate attack sequences, they will occur in order from left to right, since the leftmost attack was added last."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "attack-zone",
+    "name": "Attack Zone",
+    "definition": "Indicated by the arrowed circle on the right side of an attack. A highlighted top arrow means it's a high attack, the middle arrow means it's a mid attack, and the bottom arrow means it's a low attack.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "High attacks are completely blocked by high blocks, and partially blocked by mid blocks. They can't be blocked with low blocks.",
+      "Mid attacks are completely blocked by mid blocks, and partially blocked by high or low blocks.",
+      "Low attacks are completely blocked by low blocks, and partially blocked by mid blocks. They can't be blocked with high blocks."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "attacker",
+    "name": "Attacker",
+    "definition": "The player whose attack is currently in its attack sequence. The attacker gets the first chance to play enhance abilities during the Enhance Step.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "attuned-symbols",
+    "name": "Attuned Symbols",
+    "definition": "Some cards have resource symbols with a square icon, rather than a circular symbol icon. This indicates that that symbol is attuned. A card with an attuned symbol on it can be played in a deck whose starting character possesses the corresponding resource symbol regardless of the deck's primary symbol. (The character does not need to possess an attuned symbol on their card, just the base symbol. For example, Eren Jaeger possesses the symbol. So even if his deck's primary symbol is , he can play an attuned card such as Spring into Action.)\n\n🔥\n\n💀\n\n🔥\n\nIf a card has multiple attuned symbols, your starting character must possess one of the attuned symbols, but does not require both.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "A"
+  },
+  {
+    "slug": "backup",
+    "name": "Backup",
+    "definition": "Backups are one of the six card types.\n\nYou play backups into the card pool as a form during the Combat Phase, and they get built into the stage during the end phase (just like foundations).\n\nUnlike foundations, you can't commit backups to pass checks. If a card counts or refers to your backups, it means the backups in your stage.\n\nBackups have 1 unique property—stamina.\n\nWhen playing an attack, the attacking player may choose to attack a backup in the rival's stage rather than the rival character. When their backup is being attacked, the defending player cannot try to play a block. (see: Attack Sequence)",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Stamina is the number over the green heart icon. (see: Stamina)"
+    ],
+    "seeAlso": [
+      "stamina",
+      "attack-sequence"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "B"
+  },
+  {
+    "slug": "blitz-ability",
+    "name": "Blitz Ability",
+    "definition": "Blitz abilities are played during the start of the Enhance Step, before Enhance abilities are played. Once a player has finished playing Blitz abilities, they may play an Enhance ability. They may not play Blitz abilities after the start of the Enhance Step.\n\n(see: Enhance Step)\n\nA blitz ability is playable only if it's on the current attack.\n\nEach blitz ability can only be played once per Enhance Step.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Blitz abilities are optional.",
+      "When a card has more than one Blitz ability, you may play any number of those Blitz abilities in any order you choose."
+    ],
+    "seeAlso": [
+      "enhance-step"
+    ],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "B"
+  },
+  {
+    "slug": "block",
+    "name": "Block",
+    "definition": "Indicated by the shield icon on the top right corner of a card.\n\nBlocks have two parts. A zone, marked by the location of the \"+ marking\" next to the shield, and a modifier number.\n\n\"Play a block\" triggers react to playing a card as a block, not just playing any card that has a block.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Playing a card as a block does not count as \"playing a [card type]\". In other words, blocking with an attack is not playing an attack.",
+      "Playing a block is still \"playing a card\", or \"playing a [card type] card\"."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "B"
+  },
+  {
+    "slug": "block-modifier",
+    "name": "Block Modifier",
+    "definition": "The block modifier is the number inside the block icon.\n\nWhen you try to block, the difficulty you check against is equal to: The speed of the attack + the\n\nblock modifier of your block + progressive difficulty. (see: Progressive Difficulty)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "progressive-difficulty"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "B"
+  },
+  {
+    "slug": "block-step",
+    "name": "Block Step",
+    "definition": "The second part of the attack sequence. After the Enhance Step, move on to the Block Step. The Block Step has two parts.\n\nFirst, the defender decides if they want to try to block. They can't try to block unless they have a card in their hand that's valid to block with.\n\nIf the zone of the attack is:\n\nIf they chose to try to block, they choose a valid card and try to play it as a block.\n\nExample - Tape Swing cannot be completely blocked. Because of this, any block with a matching zone is invalid.)\n\nThe difficulty you check against to block with a card is: The speed of the attack + the block modifier of the block + progressive difficulty.\n\nSecond, determine how and whether the attack was blocked.\n\n\"Attack is not blocked / completely blocked / partially blocked\" triggers happen at this time.\n\nAfter the Block Step, move to the Damage Step.",
+    "examples": [],
+    "notes": [
+      "\"Valid\" means a card that can block the attack. There may be effects that change what blocks are valid.",
+      "The block is played first, and any responses or fired effects to the card being played as a block happen. Then the attack becomes blocked, and any responses or fired effects to that happen. ) An attack can only have one such \"block status\". If an attack's block status changes after being initially determined, triggers to blocking do not happen again."
+    ],
+    "bullets": [
+      "If an effect makes an attack \"considered completely blocked during the Block Step\", skip the first part of the Block Step. The attack becomes completely blocked during the second part.",
+      "The attacking player's effects cannot create a \"blocked\" status for their own attacks. Any instruction to do so fails. This means that the effect occurs, but the blocked status does not take effect and the block step proceeds as normal.",
+      "A player cannot try to block if the rival attacks one of their backup cards.",
+      "High - blocks with a high or mid zone are valid",
+      "Mid - all block zones are valid",
+      "Low - blocks with a low or mid zone are valid",
+      "If a block becomes invalid before it is done being played, abort the process of playing a block and discard the block. You don't get to try to block again.",
+      "If the defender did not try to block, or failed the check to play their block, the attack is not blocked.",
+      "If the defender played a block with a block zone that matches the attack zone, the attack is completely blocked.",
+      "If the defender played a block with a block zone that does not match the attack zone, the attack is partially blocked."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "B"
+  },
+  {
+    "slug": "block-zone",
+    "name": "Block Zone",
+    "definition": "The block zone is at the right side of the block icon. A \"+ marking\" at the top means it's a high block, in the middle means it's a mid block, and at the bottom means it's a low block.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "A high block can completely block a high attack, and partially block a mid attack.",
+      "A mid block can completely block a mid attack, and partially block a high or low attack.",
+      "A low block can completely block a low attack, and partially block a mid attack."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "B"
+  },
+  {
+    "slug": "bonus",
+    "name": "Bonus",
+    "definition": "A bonus is a +# increase to some number.\n\nIf a number increases via some means other than giving it +#, that is not a bonus.",
+    "examples": [
+      "\"This attack gets +2 speed\" gives an attack a speed bonus. \"Your check gets +1\" is a check bonus. \"Your attack gets a damage bonus equal to its printed difficulty\" will give a printed 5 difficulty attack +5 damage.",
+      "If you use Encouraging Training Partner to make your 0 speed attack into a 4 speed attack, that is not a speed bonus."
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "B"
+  },
+  {
+    "slug": "both-players",
+    "name": "Both Players",
+    "definition": "Some effects have both players do something at the same time, but they need to make a choice (i.e. choose a card) to do so. The owner of the effect may choose who makes the decision first. Aside from any such decisions, the effect still occurs simultaneously.\n\nYou can ask your rival to choose their card (and whether to reveal at all) first, but the cards are only revealed once both players have chosen.)\n\nSimilar to Flex Your Might, players will choose their cards first (you can ask your rival to choose before you if you'd like), then both players discard the cards at the same time and then draw 2 cards.)\n\nYou may ask your rival to choose what they want to destroy first, before you do. All four foundations are destroyed at the same time.)",
+    "examples": [
+      "You play the form on Flex Your Might, which makes both players reveal a card at the same time.",
+      "You play the enhance on Petty Squabble, which makes both players discard 2 cards.",
+      "You play the combo enhance on Gigantic Explosion, which has both players destroy 2 of their rival's foundations."
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "B"
+  },
+  {
+    "slug": "brackets",
+    "name": "Brackets",
+    "definition": "Brackets after the ability type restrict how that ability is played.\n\nIf brackets contain a game zone, it means that ability is only playable when the card is in that zone. It also means the ability can be played from that zone, if it normally couldn't.\n\nBrackets can also contain a timing (such as \"[Your attack]\"), which means the ability can only be played during that time.\n\nLastly, brackets can have a count restriction, such as \"[Once per turn]\" or \"[Once per game]\". That means you can only play the ability that many times per time span.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "B"
+  },
+  {
+    "slug": "breaker",
+    "name": "Breaker",
+    "definition": "Breaker is a keyword ability.\n\nBreaker grants \"Response: After you block with this card, your rival's next check to play a card gets -X. X equals the rating of the Breaker keyword granting this ability.\"\n\nThe Breaker rating is the number next to the Breaker keyword. \"Breaker: 2\" has a Breaker rating of 2.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "B"
+  },
+  {
+    "slug": "build",
+    "name": "Build",
+    "definition": "To \"build\" a card means to add it to your stage.\n\nIf the effect doesn't specify facing, face down cards from zones other than the hand build face down. Anything else builds face up.\n\nIf by some means you build an attack or action face up, discard it immediately. (see: Pause Conditions)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "pause-conditions"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "B"
+  },
+  {
+    "slug": "bullets-in-abilities",
+    "name": "Bullets in Abilities",
+    "definition": "Some abilities instruct you or a rival to choose from a bulleted list of effects. Such an ability cannot execute until all costs have been paid and all choices required by the ability have been made. Once those criteria are satisfied, the ability is considered to have been played, and its effects are only those effects which were chosen. Choosing an option is neither a cost, nor an effect\n\nUnless an ability specifically allows it, choices on a bulleted list of effects cannot be chosen more than once.\n\nIf an option on a bulleted list is not chosen as part of the effect, other card effects will not consider it to be an [Ability That ____]. This exception applies only to abilities with a list of bulleted options. (see: Ability That ____)",
+    "examples": [
+      "Player A plays the Enhance ability on \"Wielding One For All\" with 5 Vestige cards in their stage, allowing for 2 choices on the list of effects. When playing the card, they pay the cost of removing the card from play. Then, they make the choice between the options listed, choosing to draw 1 card twice. Once the choice has been made the effects are set and will then execute.",
+      "Player A plays the attack \"Shoot the Moss\" and uses the Blitz ability, causing Player B to choose between granting the attack a speed bonus or a damage bonus. There is no cost, so Player B moves to making the choice between the effects, choosing to give a damage bonus. Player A responds to that choice with the response on \"Twin Twains\", flipping the card and causing Player B to choose the remaining choice of giving a speed bonus. Since both choices have been made, the effects are set and will then execute."
+    ],
+    "notes": [
+      "This means that in the above example using \"Wielding One For All\", the played ability will not count as an ability that increases speed or provides a damage bonus."
+    ],
+    "bullets": [],
+    "seeAlso": [
+      "ability-that"
+    ],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "B"
+  },
+  {
+    "slug": "cancel",
+    "name": "Cancel",
+    "definition": "An effect that cancels an ability prevents that ability's effect(s) from executing.\n\nAn ability that has been cancelled has still been played.\n\nBecause costs are paid before an ability is played, cancelling an ability does not reverse its cost being paid.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "card-pool",
+    "name": "Card Pool",
+    "definition": "The card pool is one of the game zones.\n\nWhen you play a card, add it to the card pool.\n\nIf the card (such as Erase!) goes to another zone as part of its cost, it does not go to the card pool.\n\nAdd cards to the card pool left to right. The order of cards in the card pool can't be changed.\n\nEach card in the card pool adds 1 to the progressive difficulty to play other cards.\n\nThe card pool is just a sequence of cards, left to right, with new cards being added at the end. If a card leaves your card pool, slide any cards after it over to the left to help keep this clear.)\n\nFace down cards in the card pool are blank cards with no card type or other properties.\n\nIf a face down card goes to the card pool (except from the hand), it stays face down by default.\n\nSome effects look for the preceding card or card(s) to a referenced card. These look to the left of the referenced card. (see: Preceding)\n\nThe card pool empties during the End Phase. (see: Clearing the Card Pool)",
+    "examples": [],
+    "notes": [
+      "If a card leaves the card pool, it no longer adds to progressive difficulty",
+      "If you're using a playmat with defined spaces for cards in the card pool, these are not individual \"slots\". They're just an aid to help see progressive difficulty."
+    ],
+    "bullets": [],
+    "seeAlso": [
+      "preceding",
+      "clearing-the-card-pool"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "character",
+    "name": "Character",
+    "definition": "Characters are one of the six card types.\n\nCharacters have four unique properties - hand size, health, identity and version.\n\nHand size is the number over the 'cards' icon.\n\nHealth is the number over the 'heart' icon.\n\nIdentity is the name at the top of the card, excluding parentheses.\n\nVersion is the roman numeral to the top right of the text box (see: Hand Size, Health, Identity, Version)\n\nThe full card name of a character card is the name at the top, plus the version.\n\n(see: Making a Check, Costs)\n\nhave the same identity and version, it gets discarded instead.\n\nWhenever another copy of your starting character enters your stage, it attaches to your starting character.\n\nAttached characters, aside from effects that count the number of characters / cards in the stage, are \"merged into\" the starting character.",
+    "examples": [
+      ": The full card name of the Tenya Iida that comes in DLC pack 1 is \"Tenya Iida 2\". The full card name of All Might (True Form) is \"All Might (True Form) 4\".",
+      "Mt. Lady can add other copies of Mt. Lady to her stage. When she does, the added copy attaches to the original. Aside from counting for her second ability, these added copies don't do anything."
+    ],
+    "notes": [
+      "This only applies to *costs*, not effects like that of Stun.",
+      "see \"Place On Top Of\" for how to handle All Might (True Form)'s once per game ability."
+    ],
+    "bullets": [
+      "This is for the purposes of naming a card, deck registration, etc.",
+      "If an effect only mentions a character identity but no version, any character card with that identity counts.",
+      "You can commit your character to help pass control checks.",
+      "The character you start the game with in your stage is your starting character.",
+      "The starting character can't be destroyed, flipped, or otherwise removed from the stage.",
+      "If an effect refers to your character, it means your starting character.",
+      "If you play a copy of your starting character as a form, it builds when it gets cleared during the End Phase.",
+      "If you play a character that's not a copy of your starting character - as in, it does not",
+      "They don't commit or ready on their own. They have the same committed/ready state as your starting character.",
+      "They don't count for anything when passing checks.",
+      "You can't play their abilities.",
+      "They can't be used for a cost, or impacted by an effect, unless it (explicitly or implicitly) calls for attached characters."
+    ],
+    "seeAlso": [
+      "hand-size",
+      "health",
+      "identity",
+      "version",
+      "making-a-check",
+      "costs"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "character-abilities",
+    "name": "Character Abilities",
+    "definition": "Character abilities are abilities on a character card. If an effect references character abilities, it only references abilities that originate from a character card.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "C"
+  },
+  {
+    "slug": "character-traits",
+    "name": "Character Traits",
+    "definition": "Characters may have Trait keywords.\n\nCharacter traits have no inherent function, but cards may reference them.\n\nCharacter traits may not be added to non-character cards through any means.\n\nThe following is a list of current Character Traits:\n\n1-A 1-B Big 3 Brawler Champion E-Rank Ensign Garrison Giant Healer Hunter Inventor League of Villains Lurkers Mighty Nein Military Police Brigade Monster Nomu Pirate Pro Hero Scout Shie Hassaikai Shiketsu Student Survey Corps Teacher Team Masho Team Rokuyokai Team Toguro Team Urameshi Team Uraotogi Thief Titan Villain Vox Machina Warrior",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "charge",
+    "name": "Charge",
+    "definition": "A keyword trait. (see: Keyword Traits)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "check",
+    "name": "Check",
+    "definition": "see Making a check",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "check-value",
+    "name": "Check Value",
+    "definition": "The check value of a card is the number in the lower right corner.\n\nWhen you make a check (see: Making a Check), this is the number that you'll compare to the difficulty you need.\n\nA check value surrounded by a burst visual effect is a reminder that the card has a response ability that triggers when checked.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "making-a-check"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "clear",
+    "name": "Clear",
+    "definition": "To clear a card means to move it from your card pool to your discard pile.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "If an effect is looking for a card to have been discarded from the card pool, a cleared card counts, and vice versa.",
+      "Cards that are put anywhere but the discard pile from the card pool are not cleared."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "clearing-the-card-pool",
+    "name": "Clearing the Card Pool",
+    "definition": "Both players clear their card pool during the End Phase. The active player does so first, then the inactive player.\n\nClear your card pool right to left, so the first card you play is the last one to clear.\n\nWhen cleared:",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Action cards, cards played as blocks, face down cards, and cards in the card pool that were not played, get discarded.",
+      "Foundations (that you played as foundations) get built to your Stage.",
+      "Assets (that you played as assets) get built to your Stage.",
+      "Attacks that dealt damage may (your choice) go to your momentum. If you don't want it to or if it didn't deal damage, it gets discarded.",
+      "Characters get discarded, unless it's a copy of your starting character, in which case you build and attach it. (see: Character)"
+    ],
+    "seeAlso": [
+      "character"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "combat-phase",
+    "name": "Combat Phase",
+    "definition": "The Combat Phase is the main phase of the game. It is the second part of a turn, between the Start Phase and End Phase.\n\nDuring the Combat Phase, the active player takes a series of actions that are collectively referred to as \"forms\".\n\nA form can be:\n\nIf you play an attack, begin the Attack Sequence (see: Attack Sequence).\n\nAs the active player, you have priority to play a form (or pass) whenever:\n\nIf you try to play a card as a form, but fail the check to play it, the Combat Phase ends.\n\nYou must try to play at least one card as a form during your Combat Phase.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Playing an attack, foundation, asset or character (see: Playing a card)",
+      "Playing a form ability on an action card",
+      "Playing a form ability on a card in the stage",
+      "You can also pass on playing a form, and move to the End Phase. (This is not a form)",
+      "There is no ongoing attack sequence",
+      "There are no response windows open",
+      "There are no cards or abilities in the middle of being played or executing",
+      "This includes playing a form ability on an action card.",
+      "If you can't, reveal your hand to verify that none of the cards can be played as forms. Then discard 1 card."
+    ],
+    "seeAlso": [
+      "playing-a-card",
+      "attack-sequence"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "combo",
+    "name": "Combo",
+    "definition": "Combo is a keyword ability, and also an associated play restriction. (see: Play Restrictions)\n\nThe Combo keyword will always be followed by some requirement(s) in parentheses. For example, Combo (Ranged) or Combo (Weapon, Foundation).\n\nThe Combo keyword grants:\n\nThe Combo play restriction makes an ability only playable if the combo requirements are met.\n\nIf a Combo keyword has multiple requirements, those requirements will be separated by a comma.\n\nIf the Charge attack is not *directly* before Improvised Blade (i.e. if it's three cards back), that won't meet the requirement. If the card directly before is not a Charge as printed, but gained Charge from an effect, this does not work either.)\n\nStaff Strike are a card that has Weapon as a printed keyword, followed by a Foundation card.\n\nIf the order of cards in your card pool is not exactly Weapon card, Foundation, Staff Strike, that won't meet the requirement.)\n\nIf an effect references a Combo ability, it's looking for an ability with a Combo play restriction.\n\nFace Down cards in your card pool may fulfill the requirement for Combo (Face Down), but no other combo restriction.",
+    "examples": [
+      "Improvised Blade has Combo (Charge) and a Combo Enhance that gives it more damage. You can only play that enhance if the card directly before Improvised Blade has Charge as a printed keyword.",
+      "Staff Strike has Combo (Weapon, Foundation) and a Combo Enhance that makes the next two Weapon cards you try to play this turn ignore progressive difficulty. You can only play that enhance if the two cards directly before"
+    ],
+    "notes": [
+      "The \"printed\" here is important! The card(s) before your combo attack must match the requirement as printed. Changes to cards due to effects have no bearing on whether you can play a combo ability."
+    ],
+    "bullets": [
+      "\"Combo-restricted abilities on this card are only playable if the printed properties of the directly preceding card(s) in the card pool match the requirement(s) of a Combo keyword on this card, in order.\""
+    ],
+    "seeAlso": [
+      "play-restrictions"
+    ],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "commit",
+    "name": "Commit",
+    "definition": "A card can be committed by using it to pass a check, to pay some cost, or due to some effect.\n\nTo show that a card has been committed, turn it 90 degrees clockwise.\n\nA committed card cannot be committed.\n\nYou can't play abilities on a committed card.\n\nOnly cards in the stage can be ready or committed.\n\nWhen the following icon appears on a card (usually as part of the cost of an ability), it means \"commit this card.\"",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Unless the ability has [Tenacious] (see: Tenacious)",
+      "Continuous abilities on committed cards remain in effect."
+    ],
+    "seeAlso": [
+      "tenacious"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "completely-blocked",
+    "name": "Completely Blocked",
+    "definition": "If an attack is blocked by a card with the same block zone as the attack's attack zone, the attack is completely blocked. (see: Block Step)\n\nCompletely blocked attacks do not deal damage in the Damage Step.",
+    "examples": [],
+    "notes": [
+      "Throw attacks can be completely blocked, even though it still results in damage."
+    ],
+    "bullets": [],
+    "seeAlso": [
+      "block-step"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "conflict-resolution",
+    "name": "Conflict Resolution",
+    "definition": "If an effect directly conflicts with the game rules, the effect takes precedence.\n\nIt does not mean you get to play a card that would be illegal for some other reason. And if it did not specify that a check isn't necessary, you would still need to make one and pass it.)\n\nEffects that prohibit / prevent, take precedence in any conflict.",
+    "examples": [
+      "You use the second enhance on Electric Jolt, which makes it deal 1 damage when completely blocked. Your rival uses Wall Climb to say it deals no damage when blocked. Wall Climb takes precedence no matter what order the two were used in."
+    ],
+    "notes": [
+      "This is not \"greedy\". For example, Mina Ashido lets you play a card from your discard pile as a form, with no check necessary. This only overrides (a) you normally can't play cards out of your discard pile, and (b) the need to pass a check to play said card."
+    ],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "continuous-ability",
+    "name": "Continuous Ability",
+    "definition": "A continuous ability is an ability that is not played. Instead, it gives the card a static effect. (see: Static Effects)\n\nIf an ability does not have a type designation (Enhance, Form or Response), it is a continuous ability.",
+    "examples": [
+      "several cards have the ability \"If this attack is added to your momentum, add it face up.\" This is a continuous ability."
+    ],
+    "notes": [],
+    "bullets": [
+      "If a continuous ability is preceded by a set icon or symbol restriction, it only grants the effect if your starting character has that set icon or symbol."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "C"
+  },
+  {
+    "slug": "copy",
+    "name": "Copy",
+    "definition": "A copy of a card is a card with the same name.\n\nA copy of an ability is an ability with the same cost and effect, on a copy of the same card.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Cards with no name are not copies of each other."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "copying-another-card",
+    "name": "Copying Another Card",
+    "definition": "Some effects turn a card into a copy of another card, or allow you to play a card as a copy of another card.\n\nThese effects are a special type of modifier effect, which are applied before any other modifier effect(s).\n\nCopying a card copies every property of the card - its name, its card type, block modifier, keywords, abilities, etc.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "costs",
+    "name": "Costs",
+    "definition": "The cost of an ability is the instruction(s), if any, before the colon. It comes after the type designation and any restrictions / brackets.\n\nYou can't try to play an ability that you can't pay the cost for.\n\nWhen paying a cost, all triggers wait until the cost is done being paid. This means that nothing can interrupt and change your ability to pay the cost.\n\nIf a cost includes X, then either:\n\nSome commonly used costs have shorthanded terms:\n\nIf a cost asks you to interact with card(s), it means your own cards by default. (see: Instructions)",
+    "examples": [
+      "The Attack Titan is in your stage and currently has 3 stamina. You cannot lose 4 stamina to pay for its form ability.",
+      "\"Discard 1 momentum\" means to discard 1 of your own momentum. Tsuyu Asui 2's \"Discard 1 card from your rival's card pool\" is paid by choosing a rival card to discard, since it specifies as such."
+    ],
+    "notes": [],
+    "bullets": [
+      "This excludes the check cost to play an action.",
+      "X is defined at the end of the effect's text.",
+      "If it's not specified, you can choose any non-negative value for X when you announce that you're playing the ability.",
+      "\"Commit\" - \"Commit this card\"",
+      "\"Destroy\" - \"Destroy this card\"",
+      "\"Remove\" - \"Remove this card from the game\"",
+      "\"Flip\" - \"Turn this card face down\"",
+      "\"Check X\" - \"Make a check against a difficulty of X\""
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "counters",
+    "name": "Counters",
+    "definition": "Some game effects may generate counters to be added to a card. Usually, these counters will be distinctly named. Counters with different names should be tracked separately.\n\nBy default, counters cannot be on cards unless they are in the Stage.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "If an effect calls out a specific type of counter, it is looking for ONLY that type of counter.",
+      "If an effect refers to a counter or counters on a card without specifying a type of counter, that effect refers to any and all counters on that card."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "current-state",
+    "name": "Current State",
+    "definition": "The current state of a card is the properties that it has right now.\n\nIn the Universus CCG, a card's current state changes as you apply effects, and those effects get consumed.\n\nIt is *not* a 3 speed, 4 damage attack with \"+1 speed\", \"-3 speed\" and \"+2 damage\" effects floating on it in some way.\n\nAs an example where this matters, say you use \"Encouraging Training Partner\" to change the attack's speed to 4. This turns your 1 speed, 6 damage attack into a 4 speed, 6 damage attack, full stop.\n\nYou do not go back down the list of +/- effects to recalculate starting from 4. Those effects are already done and gone. Only the current state of the card's properties matters.)\n\nCards get a current state as soon as they become live (see: Live Cards). If you try to play a card that was already live, it gets a new current state as soon as the attempt begins.\n\nCurrent states are also refreshed at the end of a turn, or when a card changes zones or facing (face up / face down).\n\nWhen a card gets a new or refreshed current state, it starts at its printed properties, then modifier effects get applied (see: Modifier Effects).\n\nOnce an effect has applied a change to a card's current state, that modification can't get undone, repeated, or otherwise changed until the current state is refreshed or replaced.\n\n(a) Todoroki gives your attack +1 damage for every 2 Ranged attacks in your discard pile. You use this ability with 9 Ranged attacks in your discard pile, so the attack gets +4 damage.\n\nLater on in the attack, you get a 10th ranged attack in your discard. This doesn't matter though, because the +4 is already applied and done. It does not become +5.\n\n(b) Giant Ice Wall can give your next Ranged attack Stun: 2. You play another Ranged attack, and it gains Stun: 2. Even if it loses the Ranged keyword for some reason, it will not lose the Stun: 2.)\n\nCurrent state creation / refreshes happen before any fired effects can trigger.\n\nWhile an attack is being played, any changes to its speed, damage or attack zone are suspended until it finishes getting played.\n\nThe speed, zone and damage of an attack can't be changed if it is not being played or in its attack sequence.",
+    "examples": [
+      "You have a 3 speed, 4 damage attack, and it gets +1 speed, +2 damage, and -3 speed from a series of effects. It is now a 1 speed, 6 damage attack, and those +/- effects are done and over.",
+      ":"
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "cycling",
+    "name": "Cycling",
+    "definition": "Cycling is a pause condition (see: Pause Conditions) that occurs when a player has no cards in their deck and the last card to leave their deck has reached its destination.\n\nTo cycle your deck, shuffle your discard pile to make a new deck, then remove the top 10 cards of that new deck from the game.\n\nYou may need to draw, discard or otherwise take more cards off of your deck than it has left. If this happens, take as many as you can, then cycle, then take the rest.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "If you don't have 10 cards to remove, you lose the game.",
+      "Note that this does not apply to revealing cards, since those cards aren't leaving your deck."
+    ],
+    "seeAlso": [
+      "pause-conditions"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "C"
+  },
+  {
+    "slug": "damage",
+    "name": "Damage",
+    "definition": "The number in the burst icon of an attack is its damage.\n\nDamage can be negative (see: Negative Numbers). Attacks do not deal negative damage - if an attack would deal negative damage, it does not deal damage.\n\nWhen a player takes damage, they lose that much health.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "negative-numbers"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "damage-step",
+    "name": "Damage Step",
+    "definition": "The third part of the attack sequence, after the Block Step. During the Damage Step, the attack deals (or fails to deal) damage to the rival or a backup card in their stage.\n\nAfter the Damage Step, the attack resolves and the attack sequence ends.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Unblocked attacks deal damage equal to their damage value.",
+      "Partially blocked attacks deal half their damage value, rounded up.",
+      "Completely blocked attacks deal no damage."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "deadlock",
+    "name": "Deadlock",
+    "definition": "Deadlock is a play restriction. (see: Play Restrictions)\n\nDeadlock abilities are only playable if your rival has more than 10 (as in, 11 or more) foundations in their stage. This only counts foundations, not characters or assets.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "If an effect checks to see if a player is \"at deadlock\" or \"in deadlock\", it is checking to see if they have more than 10 foundations."
+    ],
+    "seeAlso": [
+      "play-restrictions"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "deals-damage",
+    "name": "Deals Damage",
+    "definition": "An attack must deal 1 or more damage to count as dealing damage. If an attack would \"deal\" 0 or negative damage, it does not deal damage.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "deck",
+    "name": "Deck",
+    "definition": "Your deck is the stack of cards you draw and use for checks over the course of the game.\n\nThe number of cards in each player's deck is public knowledge.\n\nIf you run out cards in your deck, cycle it. (see: Cycling)\n\nIf multiple cards are added to your deck at the same time, you can choose their order.\n\nIf you search your deck due to some effect, shuffle it afterwards. If the effect only lets you search for a certain kind of card, you need to reveal it to verify that you met the conditions.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "cycling"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "deck-construction",
+    "name": "Deck Construction",
+    "definition": "These rules apply to the UniVersus Standard format. For other formats, see their relevant tournament documents.\n\nA deck contains a minimum of 60 cards, plus 1 character.\n\n(You cannot include characters without a printed difficulty or check value in your deck. They may only be used as a starting character.)\n\n(tip: Using a deck with more than the minimum 60 cards can be a good idea in the Universus CCG, so keep that in mind!)\n\nIn tournament play, you can also bring exactly 10 cards to form a sideboard. A sideboard lets you substitute cards between games. Your deck\n\nmust have the same number of cards after sideboarding that it did before.\n\nNo more than four copies of a given card can be in your deck, including your sideboard.\n\nChoose 1 of your character's resource symbols to be your deck's primary symbol. Every card in your deck must possess the deck's primary symbol. Attuned symbol cards may break this rule. (See: Attuned Symbols)\n\nAn ability that grants a card's text to another card, or temporarily turns 1 card into a copy of another card will allow a player to exceed the maximum number of a particular card in their deck.\n\nExample: A Toya Setsuno player included 8 copies of Resounding Screech in their deck and used their Form ability to play a face down card as a copy of Resounding Screech. This would technically bring their total copies to 9, but will not cause an error because the deck construction restriction is only checked at the start of a game.",
+    "examples": [
+      "Say you want to build a deck with Momo Yaoyorozu as your starting character. It must be entirely All symbol cards, entirely Good symbol cards, or entirely Life symbol cards. This includes the sideboard."
+    ],
+    "notes": [],
+    "bullets": [
+      "The 1 character is your designated starting character. You can include other characters in your deck for blocking or other reasons as long as they have difficulty and check values."
+    ],
+    "seeAlso": [
+      "attuned-symbols"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "defender",
+    "name": "Defender",
+    "definition": "The rival of the player whose attack is currently in its attack sequence. The defender gets priority to play Enhance abilities second during the Enhance Step.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "deflect",
+    "name": "Deflect",
+    "definition": "Deflect is a keyword ability.\n\nDeflect grants \"Response [Hand] Add this card to the card pool: Before the damage step of a rival attack, that attack gets -X damage. X equals the rating of the Deflect keyword granting this ability. Only 1 Deflect ability can be played per attack.\"\n\nNOTE: Deflect modifies damage of the attack before damage is calculated for a partial block.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "desperation-definition",
+    "name": "Desperation (definition)",
+    "definition": "Desperation is both a play restriction and a keyword ability.\n\nDesperation abilities are only playable if your current health is less than half of your maximum health.",
+    "examples": [
+      ": A character with 30 maximum health is at desperation when their current health is 14. They would NOT be at desperation when their current health is at 15, as that is not less than half of their maximum health."
+    ],
+    "notes": [],
+    "bullets": [
+      "If an effect checks to see if a player is \"at desperation\", it is checking to see if they have less than half their maximum health."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "desperation-keyword-ability",
+    "name": "Desperation (Keyword Ability)",
+    "definition": "If Desperation is presented as a keyword ability with a rating (example: Desperation: 3 on Mop Strike) then that Keyword grants the ability \"While you are at desperation, this card's difficulty is X. X equals the rating of the Desperation keyword granting this ability.\"",
+    "examples": [
+      "If your character has a maximum health of 27 and your current health is 13, when you try to play Sword Get Longer its Desperation: 4 ability will change the difficulty of the card from 6 to 4 before any other modifications to determine the difficulty to play the card."
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": true,
+    "category": "D"
+  },
+  {
+    "slug": "destroy",
+    "name": "Destroy",
+    "definition": "To destroy a card means to move it from the stage to the discard pile.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "detached-effect",
+    "name": "Detached Effect",
+    "definition": "Detached effects are one of the three effect states. (An effect's \"state\" dictates how it behaves if related cards move or change. see: Effect States)\n\nDetached effects are completely independent of the state of any card(s). Any non-static effect that is not specific to a particular card(s) is detached. This includes all direct effects. (see: Direct Effects)\n\nA detached effect ends when either: It finishes executing A point specified in the effect is reached The turn ends (if no other end point is specified)",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "For a fired effect, when all possible chances for it to trigger have passed"
+    ],
+    "seeAlso": [
+      "effect-states"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "difficulty",
+    "name": "Difficulty",
+    "definition": "The difficulty of a card is the number in the top left corner.\n\nThe difficulty you check against is separate. That is the number that your check must meet or exceed in order to pass a check.\n\nWhen you play a card (aside from blocking), the difficulty you check against is equal to the card's difficulty, plus progressive difficulty.\n\nWhen you try to block with a card, the difficulty you check against is equal to: The speed of the attack + the block modifier of your block + progressive difficulty.\n\n(see: Progressive Difficulty)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "progressive-difficulty"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "direct-effect",
+    "name": "Direct Effect",
+    "definition": "Direct effects are one of the four effect classes. (An effect's \"class\" dictates how or when it is applied, among other things)\n\nA direct effect is the effect of a played ability. It executes after the ability is played.\n\nDirect effects are always detached. They often create other effects, including assigned effects.",
+    "examples": [
+      ""
+    ],
+    "notes": [],
+    "bullets": [
+      "The direct effect of Note Taking gives your punch attack +2 speed.",
+      "The direct effect of Reverse Throw creates an assigned fired effect.)"
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "discard",
+    "name": "Discard",
+    "definition": "To discard a card is to put it in your discard pile. This can be from any zone.\n\nIn card text, if no zone is specified, \"discard a card\" means to discard it from your hand.\n\nIf the cost of an ability is to discard your hand, you can pay that cost with an empty hand.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Similarly, if card text references a card being discarded, or some like extrapolation of the above, it means discarded from hand unless otherwise specified.",
+      "If the cost of an ability is to discard a certain number of cards, you must be able to discard that many cards to pay the cost."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "discard-pile",
+    "name": "Discard Pile",
+    "definition": "The discard pile contains cards that were destroyed, checked or otherwise discarded.\n\nYour discard pile is a single face up pile, with new cards going on top. You can't rearrange it, and both players are allowed to look at either discard pile at any time.\n\nIf multiple cards go to your discard pile at the same time, you can choose the order they go in.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "double",
+    "name": "Double",
+    "definition": "Effects cannot double a negative number.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "double-sided-cards",
+    "name": "Double-Sided Cards",
+    "definition": "A Double-Sided card is a UniVersus card that has no \"UniVersus\" card back. Instead, it has a front side and a back side.\n\nThe front side of a double-sided card has normal symbol icons, a difficulty value, and a check value.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Double-sided character cards may or may not have difficulty or check values. The back side of a card does not have a difficulty or check value. Additionally, it has photonegative versions of the front side's set identifier and resource symbols to make it easy to identify which side is the back side."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "draw",
+    "name": "Draw",
+    "definition": "To draw a card means to add the top card of your deck to your hand.\n\nDrawing multiple cards is one game event. (Effects that trigger off of drawing cards will only trigger once)\n\nIf an effect asks you to \"draw up to\" a certain number, and you have less than that, draw the difference in one action.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Adding cards to your hand in other ways does not count as drawing a card."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "draw-step",
+    "name": "Draw Step",
+    "definition": "The Draw Step is the third part of the Start Phase, after the Review Step.\n\nDuring your draw step, draw up to your hand size.\n\nIf the number of cards in your hand is already equal to or more than your hand size, don't draw any cards.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "drive",
+    "name": "Drive",
+    "definition": "To \"drive X\" is to follow the instruction \"commit foundations and/or spend momentum in any combination of X.\"",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "dropped-attack",
+    "name": "Dropped Attack",
+    "definition": "If an attack in its attack sequence leaves the card pool or changes facing (face up or face down) before the Damage Step, it becomes dropped.\n\nDropped attacks end their attack sequence as soon as either:",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "A player would get priority to play an enhance",
+      "The attack sequence would move on to the start of a new step, or to the determination of block status. (see: Attack Sequence)"
+    ],
+    "seeAlso": [
+      "attack-sequence"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "during-an-attack",
+    "name": "During an Attack",
+    "definition": "\"During an attack\" means to be during an attack sequence.",
+    "examples": [],
+    "notes": [
+      "effects that trigger upon an attack being played happen before the attack sequence"
+    ],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "D"
+  },
+  {
+    "slug": "echo",
+    "name": "Echo",
+    "definition": "Echo is a keyword ability.\n\nEcho grants \"Response Discard 1 momentum: After this attack resolves, you may play it as your next form. If you do, after it resolves, flip it.\"\n\nThe flipped card does not count as an attack and will not go to momentum.\n\nAn Echo ability on a face down card cannot be played.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "E"
+  },
+  {
+    "slug": "effects",
+    "name": "Effects",
+    "definition": "An effect is some series of instructions that can have an impact on the game. Effects come from abilities, or from other effects.\n\nExecute effects' instructions in order. Each step along the way can separately trigger fired effects or response abilities.\n\nIf an effect requires a decision, that decision is not made until that part of the effect is reached.\n\nEffects do as much as they can, even if it is not possible to do the whole effect.\n\nIf an effect asks a player to interact with cards, it means their own cards by default. (see: Instructions)\n\nCertain clauses of an effect are handled out of order:\n\nThere can be text at the end of an effect that impacts the ability and is not part of the effect. These can include:\n\n\"Playable while committed.\" \"Only playable (condition).\" \"This ability cannot be canceled.\" \"This enhance is playable any number of times this Enhance Step.\"\n\n(see: Play Restrictions)\n\nSome effects are a series of bullets. These function like a list of options, except that you will need to choose an option as part of the cost.\n\n(see: Bulleted Effects)\n\nEffects have both a \"class\" and a \"state\".\n\nNon-static effects last until the end of the turn, if no other end point is specified.\n\nSometimes an effect looks for a card property, but the card changed zones or visibility. Use the latest value of that property in the first zone where it was live. (see: Scope)",
+    "examples": [
+      "\"Your rival commits 1 foundation\" means they pick and commit 1 of their own foundations. \"Destroy 1 rival foundation\" means you pick and destroy any rival foundation, since it specifies as such."
+    ],
+    "notes": [
+      "If an effect makes another effect that includes a decision, the decision isn't made until that created effect executes.",
+      "It is possible for an effect to do nothing at all. There is nothing wrong with this, and you're allowed to play an ability even if its effect will do nothing.",
+      "Effects can also have a \"scope\", which limits an effect's frame of reference for certain things. It's mostly a technicality, but you can see Scope for details."
+    ],
+    "bullets": [
+      "Game procedures, such as cycling, are not effects.",
+      "Fired effects or response abilities can interrupt an effect. Handle those, and any resulting triggers, before continuing the original effect.",
+      "Acting on groups of cards (i.e. discard 2 cards) does not cause multiple triggers. (see: Game Event)",
+      "A definition of X may appear in an effect, but is not an instruction.",
+      "An \"If... instead\" clause changes a prior part of the effect based on a condition.",
+      "An \"Either… or if\" clause is an alternate way to frame the above.",
+      "\"Your rival may (instructions) to cancel this ability.\"",
+      "\"This effect cannot ___.\"",
+      "An effect's \"class\" dictates how or when it is applied, among other things. (see: Effect Classes)",
+      "An effect's \"state\" dictates how it behaves if related cards move or change. (see: Effect States)"
+    ],
+    "seeAlso": [
+      "game-event",
+      "play-restrictions",
+      "effect-classes",
+      "effect-states",
+      "scope"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "E"
+  },
+  {
+    "slug": "effect-classes",
+    "name": "Effect Classes",
+    "definition": "The class of an effect dictates how it is applied, its timing, scope and any unique behaviors.\n\nA direct effect is the effect of a played ability. (see: Direct Effect)\n\nA fired effect is triggered by some game event, like a response ability, but not optional. (see: Fired Effect)\n\nA modifier effect changes a card's current state. They can happen immediately, or wait for card(s) to apply to.\n\n(see: Current State, Modifier Effect)\n\nA rule effect applies some added rule or behavior to the game while it's active. (see: Rule Effect)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "direct-effect",
+      "fired-effect",
+      "current-state",
+      "modifier-effect",
+      "rule-effect"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "E"
+  },
+  {
+    "slug": "effect-states",
+    "name": "Effect States",
+    "definition": "An effect's \"state\" dictates how it behaves if related cards move or change.\n\nStatic effects are active so long as the card they're on is live. (see: Static Effect, Continuous Ability, Live Card)\n\nDetached effects are completely independent of the state of any card(s). (see: Detached Effect)\n\nAssigned effects are tied to a specific card, and will end if that card changes zones. (see: Assigned Effect)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "static-effect",
+      "continuous-ability",
+      "live-card",
+      "detached-effect",
+      "assigned-effect"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "E"
+  },
+  {
+    "slug": "either-player",
+    "name": "Either Player",
+    "definition": "If an effect instructs you to interact with \"either player's\" game zone(s), you pick a player and interact with that one player's game zone(s).",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "E"
+  },
+  {
+    "slug": "elusive",
+    "name": "Elusive",
+    "definition": "Elusive is a keyword ability.\n\nElusive grants \"This backup cannot be attacked by a rival's first attack each turn.\"",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "E"
+  },
+  {
+    "slug": "end-phase",
+    "name": "End Phase",
+    "definition": "The End Phase is the third part of the turn, and comes after the Combat Phase.\n\nDuring the End Phase, players clear their card pools, then the turn ends and the other player's turn begins. (see: Clearing the Card Pool)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "clearing-the-card-pool"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "E"
+  },
+  {
+    "slug": "enhance-ability",
+    "name": "Enhance Ability",
+    "definition": "Enhance abilities are played during the Enhance Step. (see: Enhance Step)\n\nAn enhance ability is playable if it's on a ready card in the stage, an action card in the hand, or on the current attack.\n\nEach enhance ability can only be played once per Enhance Step.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "enhance-step"
+    ],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "E"
+  },
+  {
+    "slug": "enhance-step",
+    "name": "Enhance Step",
+    "definition": "The Enhance Step is the first part of the attack sequence, before the Block Step.\n\nAt the start of the Enhance Step, the active player may play any blitz abilities they have access to. Then the Enhance step continues with each player taking turns having priority to play Enhance abilities. (see: Enhance Ability)\n\nWhen you have priority, you can either play an Enhance, or pass.\n\nIf both players pass in succession, the Enhance Step ends.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Passing does not stop you from playing Enhances later on. You only pass that specific chance to play one."
+    ],
+    "seeAlso": [
+      "enhance-ability"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "E"
+  },
+  {
+    "slug": "ex",
+    "name": "EX",
+    "definition": "EX is a keyword ability.\n\nEX grants \"Enhance Discard 1 or more momentum: This attack gets +X speed for each card used to pay the cost of this ability. X equals the rating of the EX keyword granting this ability.\"\n\nThe EX rating is the number next to the EX keyword. \"EX: 2\" has a\n\nEX rating of 2.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "E"
+  },
+  {
+    "slug": "face-down-attacks",
+    "name": "Face Down Attacks",
+    "definition": "Some effects may allow you to have a face down attack. Generally this will be because a face down card has an effect on it copying another card, or it was given some pre-set values.",
+    "examples": [],
+    "notes": [
+      "this refers to face down cards that are attacks, not face down cards that used to be attacks and then were flipped."
+    ],
+    "bullets": [
+      "A face down attack that deals damage can still go to momentum during the End Phase.",
+      "A face down attack has copied the card type (attack), so it counts as an attack in your card pool for effects and so on.",
+      "A face down attack has 0 printed speed, 0 printed damage, and its printed zone is mid. (See: Printed)",
+      "When a card is played face down as a copy of an attack, its initial current state has all of the copied values. (It does not start at zeroes/nulls and get a modification)"
+    ],
+    "seeAlso": [
+      "printed"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "F"
+  },
+  {
+    "slug": "face-down-cards",
+    "name": "Face Down Cards",
+    "definition": "In the Stage or Card Pool\n\nA face down card in the stage is a blank foundation. It has no printed properties.\n\nAny cards that were added to the stage face down, or became face down, during the current turn must be kept distinct for the duration of the turn.\n\nA face down card in the card pool is just a blank card. It adds to progressive difficulty but does nothing else on its own.\n\nIf a face down card goes to the stage or card pool (unless from the hand), it stays face down by default.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "You can look at your own face down foundations, but not your rival's.",
+      "You can look at face down cards in your card pool.",
+      "On following turns, face down cards may generally be left indistinguishable from one another. (Unless needed to track assigned effects, to count the number of times the card has been readied, or similar.)",
+      "A card that is played face down into the card pool as another card type will be treated as that card type during the End Phase."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "F"
+  },
+  {
+    "slug": "fired-effect",
+    "name": "Fired Effect",
+    "definition": "Fired effects are one of the four effect classes. (An effect's \"class\" dictates how or when it is applied, among other things)\n\nA fired effect is an effect that triggers off of some game event. They're like response abilities, but they don't have to be played.\n\nRelease's \"Your check to block this attack gets +2.\" is a fired effect.\n\nTexas Smash's \"If this attack deals damage, build the next foundation you play face up.\" is a fired effect that makes another fired effect.)\n\nFired effects happen before response abilities can be played.\n\nIf more than one fired effect triggers at once, the active player handles theirs first, then the inactive player. Each player handles their effects in any order they want.\n\nBy default, fired effects only trigger and execute once. Some detached or assigned fired effects can fire multiple times. If so, the text will make it clear.\n\nFired effects can create other effects.\n\nA card involved in a fired effect's trigger could change zones (due to another effect or cost) after the effect triggers, but before it executes. If this happens, the effect cannot move it again, or otherwise interact with it. It may still read properties from it. (see: Scope)\n\nAn attack in the card pool may turn face down after a fired effect triggered by its resolution triggers, but before it executes. If this happens, the effect cannot move it or otherwise interact with it. It may still read properties from it.",
+    "examples": [
+      "Binding Kick's \"If this attack deals damage, draw 1 card.\" is a fired effect.",
+      "\"For the rest of this turn, whenever an attack deals damage, gain 1 health.\" would fire multiple times."
+    ],
+    "notes": [
+      "This is specific to attacks flipping after they resolve, and does not apply to other situations where a card is flipped"
+    ],
+    "bullets": [
+      "You can't choose not to trigger a fired effect. If one is active, it will always fire if the trigger occurs. Fired effects may have options as part of their text.",
+      "Effects that change future checks (such as \"your next check gets +2\") are fired effects that trigger when you make the check.",
+      "Any modifier effects (if applicable) are handled before fired effects. (see: Modifier Effects)"
+    ],
+    "seeAlso": [
+      "scope"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "F"
+  },
+  {
+    "slug": "flash",
+    "name": "Flash",
+    "definition": "Flash is a keyword ability.\n\nFlash grants \"Skip this attack's Enhance Step.\"\n\nIf an attack gains Flash during the Enhance Step, the Enhance Step ends. Move to the Block Step.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "F"
+  },
+  {
+    "slug": "flip",
+    "name": "Flip",
+    "definition": "To flip a card is to turn it face down. (see: Face down cards)\n\nYou can't flip a card that's already flipped.\n\nThis also means that if, for example, it has been readied this Combat Phase, it still counts as such.)",
+    "examples": [],
+    "notes": [
+      "Flipping or unflipping a card does not make it a \"new card\". Its current state refreshes, but it is still the same card. Any assigned effects remain on it."
+    ],
+    "bullets": [],
+    "seeAlso": [
+      "face-down-cards"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "F"
+  },
+  {
+    "slug": "form",
+    "name": "Form",
+    "definition": "Forms consist of two different actions.\n\nForm abilities are played during the Combat Phase, by the active player when they have priority to play forms.\n\nAs the active player, you have priority to play a form (or pass) whenever:",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Playing a card",
+      "Playing a Form ability on a card.",
+      "There is no ongoing attack sequence",
+      "There are no response windows open",
+      "There are no cards or abilities in the middle of being played or executing"
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "F"
+  },
+  {
+    "slug": "form-ability",
+    "name": "Form Ability",
+    "definition": "Form abilities are played during the Combat Phase, by the active player when they have priority to play forms.\n\nAn form ability is playable if it's on a ready card in the stage, or an action card in the hand.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "F"
+  },
+  {
+    "slug": "foundation",
+    "name": "Foundation",
+    "definition": "Foundations are one of the six card types.\n\nYou play foundations as a form into the card pool during the Combat Phase, and they get built into the stage during the end phase.\n\nFoundations can be used to pass checks.\n\n(see: Making a Check)\n\nIf a card counts or refers to your foundations, it means foundations in your stage.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "making-a-check"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "F"
+  },
+  {
+    "slug": "freeze",
+    "name": "Freeze",
+    "definition": "To \"freeze\" a card is to create the assigned rule effect \"That card does not ready during its owner's next Ready Step.\"\n\nYou cannot freeze a card that is currently frozen.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "F"
+  },
+  {
+    "slug": "frenzy",
+    "name": "Frenzy",
+    "definition": "Frenzy is a keyword ability.\n\nFrenzy grants \"Blitz: This attack gets +1 speed and +1 damage for each attack that has been blocked this turn.\"",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "F"
+  },
+  {
+    "slug": "fury",
+    "name": "Fury",
+    "definition": "A keyword trait. (see: Keyword Traits)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "F"
+  },
+  {
+    "slug": "gaining-abilities",
+    "name": "Gaining Abilities",
+    "definition": "Any effect that causes a card to gain the abilities of a second card will grant only the abilities printed on that second card at the time that the effect executes.\n\nGained abilities are part of a card's current state. Therefore, if the card changes zones or the turn ends, the card will lose the gained abilities, as its current state refreshes.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "G"
+  },
+  {
+    "slug": "gaining-keywords",
+    "name": "Gaining Keywords",
+    "definition": "Some effects will cause a card to gain keywords. A card can gain a keyword it already has.\n\nShoto Todoroki II can cause an attack with 'Stun: 2' to gain a second instance of 'Stun: 2'. Both instances of \"'Stun: 2' can be played as separate enhances.)",
+    "examples": [
+      "Neito Monoma can cause an attack that has \"Taunt\" to gain a second instance of 'Taunt\"."
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "G"
+  },
+  {
+    "slug": "gaining-character-traits",
+    "name": "Gaining Character Traits",
+    "definition": "Some effects will cause a card to gain character traits.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "G"
+  },
+  {
+    "slug": "game-event",
+    "name": "Game Event",
+    "definition": "A \"game event\" is something that can trigger a response ability or a fired effect.\n\nIn some cases, game events are combined, delayed or prevented:\n\nThe nature of a game event can't change after it happens. In other words, if something triggers, it can't \"un-trigger\" because something changed before it was played or executed.\n\nFor the purposes of game events and otherwise, players don't act upon their rival's cards. If an instruction says to interact with a rival card, you choose the card if needed, then your rival completes the act. (see: Instructions)",
+    "examples": [
+      "The response on Recipro Burst triggers \"After your rival commits 1 or more foundations during this attack's Enhance Step\". This triggers if rival foundation(s) are committed during the Enhance Step for any reason. Even if it was due to your effect, and even if you chose the card they committed."
+    ],
+    "notes": [],
+    "bullets": [
+      "Interacting with multiple cards at once is one game event.",
+      "Any game events that would happen while a player pays a cost wait until the payment is done. Then they happen as one collective event.",
+      "Any game events that would happen during a pause condition wait until the pause is over. Then they happen as one collective event.",
+      "Game events can't happen before the game starts."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "G"
+  },
+  {
+    "slug": "game-zones",
+    "name": "Game Zones",
+    "definition": "There are eight game zones. Both players have one of each. See their respective entries for details.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Card Pool",
+      "Deck",
+      "Discard Pile",
+      "Hand",
+      "Momentum",
+      "Removed From Game",
+      "Stage",
+      "Transit Zone"
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "G"
+  },
+  {
+    "slug": "hand",
+    "name": "[Hand]",
+    "definition": "[Hand] is a play restriction/permission that applies to some abilities on cards. Abilities with [Hand] in their text are subject to the following rule:",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Abilities with the [Hand] restriction/permission may only be played from the player's hand, and they do not inherently require a check to be played. Abilities with [Hand] may be played without making a check unless otherwise specified."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "H"
+  },
+  {
+    "slug": "hand-2",
+    "name": "Hand",
+    "definition": "The Hand is one of the game zones.\n\nThe cards in your hand are private information. You can look at them at any time, but not your rival.\n\nThere is no limit to how many cards you can have in your hand.\n\nIf an effect makes you reveal or move a card that meets a condition from your hand, and you don't have any, reveal your hand to verify this.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "The number of cards in your hand is public information."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "H"
+  },
+  {
+    "slug": "hand-size",
+    "name": "Hand Size",
+    "definition": "On a character, the number over the \"cards\" icon is their hand size.\n\nYou draw up to your hand size during the Draw Step. (see: Draw Step)\n\nYour hand size is not a maximum. You can have any number of cards in your hand at any time. It only dictates how many cards you draw during the Draw Step.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "draw-step"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "H"
+  },
+  {
+    "slug": "health",
+    "name": "Health",
+    "definition": "On a character, the number over the \"heart\" icon is their health.\n\nYou start the game with health equal to your character's health.\n\nYou can lose health due to costs or effects, or by taking damage. (see: Damage)\n\nIf a player is at 0 health or less, they lose the game.\n\nUnlike hand size, health is a maximum.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Losing health for any reason other than a successful attack does not count as taking damage.",
+      "If an effect would gain health beyond the maximum, it gains up to the maximum instead.",
+      "If an effect would gain health but you are already at the maximum, it fails to gain health at all.",
+      "You can never have health above your maximum. If your maximum health is reduced below your current health, your current health is also reduced to the new maximum."
+    ],
+    "seeAlso": [
+      "damage"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "H"
+  },
+  {
+    "slug": "identity",
+    "name": "Identity",
+    "definition": "A character's identity is the primary information of the card name, excluding parentheses.\n\nDifferent characters with the same identity will have different versions. (see: Version)\n\nCharacters with the same identity and version as your starting character can be built and attached. (see: Character)\n\nIf an effect names a character identity, any version of that character counts.\n\nIdentities are unique to a given property.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "version",
+      "character"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "I"
+  },
+  {
+    "slug": "if",
+    "name": "If",
+    "definition": "An \"if\" condition in an effect applies to the rest of the sentence. Any following sentences are not subject to the condition.",
+    "examples": [
+      "Even if you fail to remove a momentum with Capture Evil-Doers, it still removes itself."
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "I"
+  },
+  {
+    "slug": "in-its-name",
+    "name": "In Its Name",
+    "definition": "If a card checks for a word in another card's name, it is checking for exactly that word.\n\n(For example, \"Red Riot's the Coolest\" cannot apply the bonus from its Deadlock Enhance to \"Measured Violence\".)",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "If the letters of that word are contained in another word, it does not count."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "I"
+  },
+  {
+    "slug": "infinity",
+    "name": "Infinity",
+    "definition": "Cards with infinity have no symbols. Such cards can be played in any deck.\n\nCharacters with Infinity must select a Primary Symbol at deck construction. They do not have access to any other symbols during deckbuilding.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "I"
+  },
+  {
+    "slug": "instruction",
+    "name": "Instruction",
+    "definition": "Instructions are the steps that are part of a cost, or an effect.\n\nBy default,\n\nIf an instruction says to interact with a rival card, you choose the card if needed, then your rival completes the act.\n\nSome instructions can be overridden by text later in the effect. (see: Effects)",
+    "examples": [
+      "You use the first enhance on Electric Jolt, which instructs you to \"Commit 1 rival foundation.\" You choose the foundation, and then they commit it."
+    ],
+    "notes": [],
+    "bullets": [
+      "If an instruction asks you to interact with card(s), it means your own cards.",
+      "You make any choices in the instructions of your own costs or effects. This includes choosing which card(s) to interact with if applicable."
+    ],
+    "seeAlso": [
+      "effects"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "I"
+  },
+  {
+    "slug": "keyword",
+    "name": "Keyword",
+    "definition": "A card's keywords, if any, are located at the edge of its text box.\n\nA keyword can be a keyword trait, or a keyword ability. Traits will be in white, abilities will be colored.\n\n(see: Keyword Trait, Keyword Ability)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "keyword-trait",
+      "keyword-ability"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "K"
+  },
+  {
+    "slug": "keyword-ability",
+    "name": "Keyword Ability",
+    "definition": "Keyword abilities are colored terms at the edge of the text box.\n\nEach keyword ability grants some ability to the card that it's on.\n\nSome keywords have a colon and a number after it. This number is a Keyword Rating. (see: Keyword Rating)\n\nThis is the list of different keyword abilities in the Universus CCG. See:",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Orange keyword abilities grant enhances.",
+      "Green keyword abilities grant responses.",
+      "Pink keyword abilities grant blitzes.",
+      "Blue keyword abilities grant continuous abilities.",
+      "Breaker",
+      "Combo",
+      "Deflect",
+      "Desperation",
+      "Echo",
+      "Elusive",
+      "EX",
+      "Flash",
+      "Frenzy",
+      "Powerful",
+      "Safe",
+      "Shift",
+      "Stun",
+      "Terrain",
+      "Throw",
+      "Unique"
+    ],
+    "seeAlso": [
+      "keyword-rating"
+    ],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "K"
+  },
+  {
+    "slug": "keyword-rating",
+    "name": "Keyword Rating",
+    "definition": "Some keywords have a colon and a number after it. This number is a Keyword Rating.\n\nKeyword abilities that have ratings will reference them in their text.\n\nIf an effect modifies a card's Keyword Rating, it only modifies 1 instance of the rating. If the card has more than 1 instance of the keyword, choose 1 rating to modify.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "K"
+  },
+  {
+    "slug": "keyword-trait",
+    "name": "Keyword Trait",
+    "definition": "Keyword Traits are white terms at the edge of the text box.\n\nKeyword traits have no inherent function, but cards may reference them.\n\nThese traits appear in the Universus CCG:\n\nA subset of Keyword Traits includes Character Traits. Character Traits can only exist on Character cards. (see: Character Traits)",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Ally",
+      "Armor",
+      "Charge",
+      "Diplomacy",
+      "Doopler",
+      "Fury",
+      "Kick",
+      "Pizza",
+      "Punch",
+      "Ranged",
+      "Ship",
+      "Slam",
+      "Spell",
+      "Taunt",
+      "Tech",
+      "Titan",
+      "Vestige",
+      "Weapon",
+      "XP"
+    ],
+    "seeAlso": [
+      "character-traits"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "K"
+  },
+  {
+    "slug": "kick",
+    "name": "Kick",
+    "definition": "A keyword trait. (see: Keyword Traits)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "K"
+  },
+  {
+    "slug": "level-up",
+    "name": "Level Up",
+    "definition": "Level up is an instruction to advance a skill tree and unlock the next ability on that skill tree.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "L"
+  },
+  {
+    "slug": "live-card",
+    "name": "Live Card",
+    "definition": "Any card that is face up, revealed, and/or in the stage or card pool, is live.\n\nLive cards have a current state. (See: Current State)\n\nStatic effects on live cards are active. (See: Static Effect)",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "This excludes characters that aren't in the Stage."
+    ],
+    "seeAlso": [
+      "current-state",
+      "static-effect"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "L"
+  },
+  {
+    "slug": "making-a-check",
+    "name": "Making a Check",
+    "definition": "To make a check, discard the top card of your deck. The discarded card has been checked. Look at the large blue check value in the lower right corner of the card. This is the starting value of the check.\n\nThe final value of the check is the starting value, plus or minus any changes that are made to it.\n\nIf you were checking against a difficulty, and the final value meets or exceeds it, the check passes.\n\nIf the final value is less than the difficulty needed, decide if you want to commit cards to pass it. You can commit foundations and/or your character.",
+    "examples": [
+      "You've used the Enhance on Summon Dark Shadow to give your next check +3. When you go to play your next card, you check a 5. This is the starting value, then it gets +3 to make a final value of 8.",
+      "If you check a 4 to play a block on a difficulty of 5, you may commit High Value Target to pass the check, even though it would result in \"committing more than you need\" to pass the check."
+    ],
+    "notes": [],
+    "bullets": [
+      "You must be able to pass the check to commit cards.",
+      "You can't commit more or less than what you need. ○ As an exception, if you only need to add 1 to your check, you may commit a card that counts as more than card to pass the check.",
+      "All cards are committed at the same time.",
+      "If you can't or choose not to commit cards, the check fails.",
+      "If an effect makes a check automatically pass, skip making a check altogether."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "M"
+  },
+  {
+    "slug": "mill",
+    "name": "Mill",
+    "definition": "Mill means to put the top card of your deck into your discard pile. If the instruction to Mill is followed by a value, you will put that many cards into your discard pile instead.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "M"
+  },
+  {
+    "slug": "modifier-effect",
+    "name": "Modifier Effect",
+    "definition": "Modifier effects are one of the four effect classes. (An effect's \"class\" dictates how or when it is applied, among other things)\n\nA modifier effect applies some change to the current state of one or more cards. In other words, it changes some number or card property. (see: Current State)\n\nModifier effects apply as soon as an applicable card is live. This happens before any fired effects or response abilities. (see: Live Cards)\n\nIf more than one modifier effect is to apply at the same time, the active player applies theirs first, then the inactive player. Each player applies their effects in any order they want.\n\nModifier effects can have requirements. They will fail to apply if those requirements are not met.\n\nBy default, modifier effects apply one time. If a detached or assigned modifier effect can apply to multiple cards, the text will make it clear.",
+    "examples": [
+      ": If you use Note Taking's \"Enhance Flip: Your Punch attack gets +2 speed.\" during an attack that isn't a Punch, it will fail.",
+      "Kamui Woods' enhance makes a detached modifier effect that applies to all attacks. If you play it during one of your attacks, that attack gets +1 damage right away. Your later attacks will get +1 damage as soon as they're played."
+    ],
+    "notes": [
+      "If an attack is being played, it is live as soon as you announce it and it enters the transit zone. Changes to its speed, damage or zone are suspended until it's played successfully."
+    ],
+    "bullets": [
+      "No modifier effect can be applied to the same card twice, until that card's current state gets refreshed or replaced."
+    ],
+    "seeAlso": [
+      "current-state"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "M"
+  },
+  {
+    "slug": "momentum",
+    "name": "Momentum",
+    "definition": "Momentum is one of the game zones.\n\nYour momentum is a \"bar\" of cards next to your character. They can be arranged vertically or horizontally, or in any ordered fashion.\n\nMomentum is a private zone, with some cards having the ability to add themselves or other cards to momentum face up. By default, cards are added to momentum face down.\n\nWhen you add a card to momentum, you may add it in any position in the order. Cards added to momentum are added face down.\n\nWhen an instruction causes a card to leave your momentum, by default, you can choose any card(s) you want. Some instructions will allow a rival to choose instead.\n\nOther than adding or moving cards from it, the order of your momentum can't be changed.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "You aren't allowed to mark or distinguish momentum aside from this ordering."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "M"
+  },
+  {
+    "slug": "mulligan",
+    "name": "Mulligan",
+    "definition": "Before the game begins, each player gets a chance to take a mulligan, starting with the player going first.\n\na. The first player may mulligan their entire hand. If their new hand does not contain any foundations, they may reveal it and mulligan a second time. b. The second player may choose any number of cards in their hand to mulligan, only one time. c. After mulligans, any player who mulliganed must shuffle their deck.\n\n(see: Starting the Game)",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Starting with the first player, each player may mulligan. To mulligan cards, put the cards on the bottom of your deck and draw up to your hand size.",
+      "The game begins. The player who goes first skips the Start Phase of their first turn. Neither player may attack on their first turn of the game.",
+      "On their first turn only, the second player may draw 1 additional card during the Draw Step. This means the second player will draw above their starting hand size."
+    ],
+    "seeAlso": [
+      "starting-the-game"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "M"
+  },
+  {
+    "slug": "naming-cards",
+    "name": "Naming Cards",
+    "definition": "If you need to name a card, if you can uniquely identify it by other properties, that is also sufficient.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "N"
+  },
+  {
+    "slug": "negative-numbers",
+    "name": "Negative Numbers",
+    "definition": "The Universus CCG allows numbers to be negative.\n\nAttacks do not deal negative damage - if an attack would deal negative damage, it does not deal damage.\n\nThe only thing that can't be negative is X. (see: X)\n\nIf your rival tries to block it with a +3 low block modifier, their block will be against a difficulty of 1 (-2 + 3), plus progressive.\n\nIf you play the enhance on your -2 speed Recipro Burst, X is calculated to be -5 (-2 minus 3). But X can't be negative, it's zero instead.)",
+    "examples": [
+      "Your rival gives your Recipro Burst -3 speed and then -2 speed, and you haven't increased it yet. Recipro Burst is now -2 (negative two) speed."
+    ],
+    "notes": [],
+    "bullets": [
+      "If X is defined in a way that would make it negative, it's 0 instead.",
+      "If you get to name a number for X, you can't name a negative number."
+    ],
+    "seeAlso": [
+      "x"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "N"
+  },
+  {
+    "slug": "next",
+    "name": "Next",
+    "definition": "The \"next attack\" is either (a) the next attack a player tries to play, or (b) the next attack to enter an attack sequence, whichever happens first. Your \"next card\" is the next card a player tries to play, and so on.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "N"
+  },
+  {
+    "slug": "non-character",
+    "name": "Non-Character",
+    "definition": "A non-character ability (or ability type, i.e. \"non-character Enhance\") is an ability that's not on a character card. A non-character effect is an effect that does not come from an ability on a character card.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "N"
+  },
+  {
+    "slug": "once-per-game",
+    "name": "Once per game",
+    "definition": "[Once per game] is a play restriction. (see: Play Restrictions)\n\n[Once per game] means \"Only one copy of this ability may be played per player, per game.\"",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "A copy of an ability is an ability with the same cost and effect, on a card with the same name."
+    ],
+    "seeAlso": [
+      "play-restrictions"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "O"
+  },
+  {
+    "slug": "once-per-turn",
+    "name": "Once per turn",
+    "definition": "[Once per turn] is a play restriction. (see: Play Restrictions)\n\n[Once per turn] means \"This ability may only be played once per turn.\"",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "play-restrictions"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "O"
+  },
+  {
+    "slug": "or",
+    "name": "Or",
+    "definition": "A \"<trait> or <trait>\" card is a card that matches either description. If an effect impacts all \"<trait> or <trait>\" cards, it affects all cards that match either description. (you don't have to pick one)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "O"
+  },
+  {
+    "slug": "order-of-operations",
+    "name": "Order of Operations",
+    "definition": "As a summary, if multiple different types of things could be happening at once, handle them in this order:",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Pause conditions",
+      "Current state creation / refresh",
+      "Effect expiration",
+      "Modifier effects",
+      "Fired effects",
+      "Opening a response window"
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "O"
+  },
+  {
+    "slug": "outwit",
+    "name": "Outwit",
+    "definition": "An Outwit ability is a certain type of response ability with [Outwit] in its cost. Outwit abilities can only be played while the card is face down in the player's stage. They have an inherent cost of \"unflip and commit this card\" in addition to any other costs.\n\nNormally, face down cards in the stage are considered foundations with no abilities. A face down card in the stage with an Outwit ability printed on its face retains its Outwit ability, but all other abilities and effects treat that card as a foundation with no abilities.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "O"
+  },
+  {
+    "slug": "owner",
+    "name": "Owner",
+    "definition": "The owner of a card is the player who started the game with that card in their deck.\n\nThe owner of an effect is:",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Cards cannot change ownership during the game. If a card would move to a zone of a player that doesn't own it, it stays where it is instead.",
+      "The owner of the card that has the effect (if it's a static effect)",
+      "The person who played the ability (if it's a direct effect)",
+      "The owner of the effect that made the effect (otherwise)."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "O"
+  },
+  {
+    "slug": "partially-blocked",
+    "name": "Partially Blocked",
+    "definition": "You can block an attack with a card whose block zone is adjacent to (one zone away from) the attack zone. When this happens, the attack becomes partially blocked during the second part of the Block Step. (see: Block Step)\n\nPartially blocked attacks deal half their damage (rounded up) during the Damage Step.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "block-step"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "pause-conditions",
+    "name": "Pause Conditions",
+    "definition": "Pause conditions are situations that halt the game until they've been handled.\n\nAny game events that would happen during a pause condition wait until the pause is over. Then they happen as one collective event.\n\nIf multiple pause conditions happen at the same time, handle them in the order listed below.\n\nThe pause conditions are:\n\ncard with Unique in the stage, that player sacrifices the unflipped copies.\n\nIf an effect would cause a pause condition to be unable to resolve, the pause condition tries to resolve and then ends. It does not pause the game indefinitely.",
+    "examples": [
+      "The effect on Gravity Well is allowed to resolve, preventing foundations from being destroyed for the rest of the turn. One of the players then builds a second copy of a Unique foundation. Normally, the game would pause to make that player sacrifice 1 copy of said foundation. Because of the effect, the player does not sacrifice the foundation and the pause state ends. At the start of the next turn, the effect will wear off and the pause condition will resume, forcing that player to sacrifice 1 copy of the Unique foundation.",
+      "If an effect prevented a player from losing the game when they have 0 or less health, the game would pause and check for health at 0 or below. But because of the effect, it would be unable to resolve the pause condition. Play would then resume."
+    ],
+    "notes": [],
+    "bullets": [
+      "A player at 0 or less health loses the game.",
+      "A player with no cards in their deck cycles it. (see: Cycling) ○ If they cannot complete the game act of cycling, they lose the game",
+      "If a character is in a stage, or in transit en route to the stage, and it's not a copy of the starting character, move it to the discard pile. (see: Transit Zone)",
+      "If a player has 2 or more copies of the same card with Unique in their stage, they sacrifice 1 copy that was most recently added. ○ If 1 or more face down cards are unflipped, and the unflipped card(s) results in 2 or more copies of the same",
+      "If there are 2 or more cards with Terrain in both stages combined, destroy the card(s) that have been in a stage while having the Terrain keyword for longer. ○ If 2 or more terrains are built or gain Terrain at the same time, the active player chooses which to destroy.",
+      "If there is an attack or action in a player's stage, discard it."
+    ],
+    "seeAlso": [
+      "cycling",
+      "transit-zone"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "penalty",
+    "name": "Penalty",
+    "definition": "A penalty is a -# decrease to some number.\n\nIf a number decreased via some means other than giving it -#, that is not a penalty.",
+    "examples": [
+      "\"This attack gets -2 speed\" gives an attack a speed penalty. \"Your rival's attack gets a speed penalty equal to half its speed (rounded up)\" will give a 5 speed attack -3 speed.",
+      "If you use \"You're So Obvious\" to bring a 10 damage attack down to its printed damage (say, 6), that is not a damage penalty."
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "phases-steps",
+    "name": "Phases & Steps",
+    "definition": "Phases, steps and turns cannot begin or end while effects are being executed, or a response window is open.\n\nIf an effect ends a phase or step, it ends as soon as the above is true.\n\nTriggers can occur in between phases or steps, but not between turns.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "place-on-top-of",
+    "name": "Place On Top Of",
+    "definition": "If a card is placed on top of another card in the stage, the effect that caused this will specify a duration.\n\nThe top card temporarily replaces the bottom card. This includes superseding its printed properties, and getting a new current state.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "This also means you don't have access to any abilities on the bottom card.",
+      "It's still one card for the purposes of any sort of counting."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "play-a-card-type",
+    "name": "Play a [Card Type]",
+    "definition": "If a rule or card text refers to \"play(ed/ing) a [card type]\", it means to play the card as that type, and not as a block.\n\nPlaying a card for any reason (block or not) counts as \"play(ed/ing) a card\", or \"play(ed/ing) a [card type] card\".\n\nThe first triggers \"After you play this card\". This triggers when you play the card for any reason - as an attack, or as a block.\n\nThe second triggers \"After you play this attack\". This triggers only if you play the card as an attack. )",
+    "examples": [
+      "Specialized Sound Waves has two response abilities."
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "play-restrictions",
+    "name": "Play Restrictions",
+    "definition": "Play restrictions limit or change how or when you can play the ability they're associated with. They can appear in a few different forms.\n\nA play restriction can appear after effect text. These are not part of the effect.\n\nSome play restrictions appear in brackets after the type of an ability.\n\n○ [Your/Rival's turn] Only playable during your / your rival's turn.\n\nOther play restrictions appear in bold before the type designation.",
+    "examples": [],
+    "notes": [
+      "Passing does not count. If you pass your first chance to play an enhance, you can still play a First Enhance on your next chance."
+    ],
+    "bullets": [
+      "\"Only playable (condition)\" - The given condition must be met to play the ability.",
+      "\"Playable while committed.\" - You can play this ability even if the card it is on is committed. (It can be played if the card is ready too)",
+      "\"This ability cannot be canceled.\" - Any instruction to cancel the ability fails.",
+      "\"This enhance is playable any number of times this Enhance Step.\" - The ability ignores the normal one use per Enhance Step limit.",
+      "\"Your rival may (instructions) to cancel this ability.\" - After you play the ability, your rival can choose to do as specified. If they do, cancel the ability. ○ If your rival takes the specified act, treat it as a cost, not part of your effect. ○ Your rival decides this after any fired effects, but before response abilities that trigger on the ability being played.",
+      "If the brackets contain a zone, you can only play the ability when the card is in that zone. ○ This also allows it to be played from that zone, even if it normally wouldn't be.",
+      "Otherwise, the brackets can have one or more restrictions. These can be: ○ [Once/Twice per turn] Only playable once/twice per turn. ○ [Your/Rival attack] Only playable during your / your rival's attack.",
+      "\"First\" - The ability has to be the first act of that type. ○ A \"First Form\" is only playable if you haven't done any other forms yet that Combat Phase. (see: Combat Phase) ○ A \"First Enhance\" is only playable if you haven't tried to play any other enhances yet that Enhance Step.",
+      "\"Combo\" - You can't play the ability unless you meet the requirements of the card's Combo keyword ability. (see: Combo)",
+      "\"Deadlock\" - You can't play the ability unless your rival has more than 10 (so, 11 or more) foundations.",
+      "A character name(s) means you can only play the ability if your character has that name. ○ Some character name restrictions are shortened to save space. They will be enough to indicate a specific character identity.",
+      "A symbol icon means you can only play the ability if that symbol is on your starting character.",
+      "A set icon means you can only play the ability if your character has that set icon. ○ Additionally, if a continuous ability is preceded by a set icon, it is only active if your starting character has that set icon. This restriction applies despite the fact that continuous abilities are not played."
+    ],
+    "seeAlso": [
+      "combat-phase",
+      "combo"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "played-ability",
+    "name": "Played Ability",
+    "definition": "A played ability is an ability that's activated by the player who owns the card it is on.\n\nPlayed abilities consist of:\n\nFor each card type, the zone their played abilities are normally usable in is:\n\nYou can't activate a played ability on a committed card.\n\nIf a card changes zones, any count of how many times its abilities have been played is reset.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "A type designation (Enhance, Form or Response) along with any restrictions (see: Play Restrictions)",
+      "A cost, if there is any",
+      "A colon",
+      "An effect (see: Direct Effect)",
+      "Additional restrictions, if any (see: Play Restrictions)",
+      "In some instances, a bulleted list of options (see Bullets in Abilities)",
+      "Characters - Stage",
+      "Foundations - Stage",
+      "Assets - Stage",
+      "Attacks - Card Pool",
+      "Actions - Hand"
+    ],
+    "seeAlso": [
+      "play-restrictions",
+      "direct-effect"
+    ],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "P"
+  },
+  {
+    "slug": "playing-an-ability",
+    "name": "Playing an Ability",
+    "definition": "To play an ability, first you announce that you're going to play it.\n\nThen you pay all costs, in order.\n\nAfter costs are paid (and any triggers off of the cost are handled), the ability is played. Begin executing its effects.",
+    "examples": [],
+    "notes": [
+      "The playing of an ability is a common response trigger. If your rival has any responses like that available, make sure you give them a chance to use them.)wait"
+    ],
+    "bullets": [
+      "You can't declare an ability that you can't pay the cost for. Or one that is disallowed for some other reason.",
+      "Nothing triggers in the middle of paying costs - all game events that would occur wait. At the end of cost payment, they occur as a single event. (see: Game Event)"
+    ],
+    "seeAlso": [
+      "game-event"
+    ],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "P"
+  },
+  {
+    "slug": "playing-a-card",
+    "name": "Playing a Card",
+    "definition": "To play a card, first you announce that you're going to play it.\n\nThen place the card face up on the table. It waits in the transit zone while you go through the process of playing it. (see: Transit Zone) If playing a card from your card pool, it stays in the card pool instead.\n\nNow, determine the difficulty you will be checking against.\n\nIf you're playing an action, pay the ability's costs now(if any), in order.\n\nMake a check against the difficulty needed. (see: Making a Check)",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "If you are playing an attack, and the rival has one or more backups in their stage, declare whether you are attacking the player's character or the specific backup you would like to attack.",
+      "If you're playing an ability on an action card, you are playing the ability and the card in one sequence. You can't declare an ability on an action that you can't pay the cost for.",
+      "For a card you're playing as its card type: This equals its difficulty value, plus Progressive Difficulty.",
+      "For a card you're playing as a block: This equals your card's block modifier, plus the attack's speed, plus Progressive Difficulty.",
+      "If playing a card from the card pool, the card you are playing does not count towards Progressive Difficulty.",
+      "Nothing triggers in the middle of paying costs - all game events that would occur wait. At the end of cost payment, they occur as a single event. (see: Game Event) 38",
+      "If you fail the check, discard the card. Your attempt to play it failed.",
+      "If you pass the check, put the card in the rightmost spot of your card pool (unless it changed zones due to paying a cost). It is now played."
+    ],
+    "seeAlso": [
+      "transit-zone",
+      "game-event",
+      "making-a-check"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "powerful",
+    "name": "Powerful",
+    "definition": "Powerful is a keyword ability.\n\nPowerful grants \"Enhance Discard 1 or more momentum: This attack gets +X damage for each card used to pay the cost of this ability. X equals the rating of the Powerful keyword granting this ability.\"\n\nThe Powerful rating is the number next to the Powerful keyword. \"Powerful: 2\" has a Powerful rating of 2.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "preceding",
+    "name": "Preceding",
+    "definition": "A preceding card in the card pool is any card to the left of the referenced one.\n\nIf an effect looks for a \"directly preceding\", \"immediately preceding\", or \"the preceding\" card(s), it means the card(s) directly to the left.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "printed",
+    "name": "Printed",
+    "definition": "A card's printed properties are the ones physically printed on it.\n\nIf an effect checks a printed property of a face down card:",
+    "examples": [
+      ": A stun card has an enhance ability printed on it."
+    ],
+    "notes": [],
+    "bullets": [
+      "This includes applying any rules that interpret them.",
+      "The printed value is zero if it's a number",
+      "The printed property is considered mid if it's an attack or block zone",
+      "The printed property is null otherwise"
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "private",
+    "name": "Private",
+    "definition": "Private cards are cards that only you can look at.\n\nCards in your hand, and face down cards in your stage, card pool, and momentum are private.\n\nIf you get to look at a card, it's temporarily private.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "progressive-difficulty",
+    "name": "Progressive Difficulty",
+    "definition": "When playing a card, Progressive Difficulty is a value equal to the number of other cards in your card pool.\n\n(The card you are playing does not enter the card pool until you have finished playing it, but we refer to \"other cards in your card pool\" for clarity reasons.)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "properties",
+    "name": "Properties",
+    "definition": "The properties of a card are:\n\nA card's current state tracks its properties. (See: Current State)",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Name",
+      "Version (characters)",
+      "Set Icon",
+      "Health or Stamina",
+      "Hand Size (characters)",
+      "Difficulty",
+      "Check Value",
+      "Block Zone",
+      "Block Modifier",
+      "Keywords",
+      "Abilities",
+      "Speed (attacks)",
+      "Attack Zone (attacks)",
+      "Damage (attacks)",
+      "Symbols"
+    ],
+    "seeAlso": [
+      "current-state"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "public",
+    "name": "Public",
+    "definition": "Public cards are cards either player can look at.\n\nAny face up card is public.\n\nIf an effect reveals a private or unknown card, it is public temporarily.",
+    "examples": [],
+    "notes": [
+      "All public cards are live. See: Live Card"
+    ],
+    "bullets": [],
+    "seeAlso": [
+      "live-card"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "publicity",
+    "name": "Publicity",
+    "definition": "A card's \"publicity\" means whether or not it is public.\n\nIf a card's publicity changes, its current state refreshes. (See: Current State)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "current-state"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "punch",
+    "name": "Punch",
+    "definition": "A keyword trait. (see: Keyword Traits)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "P"
+  },
+  {
+    "slug": "ready",
+    "name": "Ready",
+    "definition": "A ready card is one in normal, portrait orientation.\n\nYou can't ready a ready card.\n\nOnly cards in the stage can be ready or committed.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "R"
+  },
+  {
+    "slug": "ready-step",
+    "name": "Ready Step",
+    "definition": "The Ready Step is the first part of the Start Phase, before the Review Step.\n\nDuring your Ready Step, ready all committed cards in your stage.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "R"
+  },
+  {
+    "slug": "re-check",
+    "name": "Re-check",
+    "definition": "If you are instructed to re-check after making a check, repeat the process of making a check. This new check replaces the previous check.\n\nAny modifications to the original check do not carry over to the re-check.\n\nYou cannot re-check a second time after making a re-check.",
+    "examples": [],
+    "notes": [
+      "Re-checks will always occur before the player decides to commit additional cards to pass the check, in the instance that the check value is not sufficient to pass the check."
+    ],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "R"
+  },
+  {
+    "slug": "remove",
+    "name": "Remove",
+    "definition": "\"Remove\" is often used as shorthand for \"Remove from the game\".",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "R"
+  },
+  {
+    "slug": "removed-from-game",
+    "name": "Removed From Game",
+    "definition": "Removed From the Game (\"RFG\" or \"Removed\" for short) is one of the game zones.\n\nYour RFG zone should be off to the side of the other play areas.\n\nRemoved cards are public. Either player can look at them at any time.\n\nCards removed by an effect that specify they be removed face down are private.",
+    "examples": [],
+    "notes": [
+      "Despite the name, the Removed From Game zone is still a game zone, and can be part of the game. Effects might check for cards in it, or even take cards from it in rare cases. The RFG name mainly implies that removed cards don't normally get back into a player's hand or deck."
+    ],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "R"
+  },
+  {
+    "slug": "resolve",
+    "name": "Resolve",
+    "definition": "An attack resolves after its attack sequence ends. (see: Attack Sequence)\n\nDropped attacks do not resolve. (see: Dropped Attacks)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "attack-sequence"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "R"
+  },
+  {
+    "slug": "response-ability",
+    "name": "Response Ability",
+    "definition": "Response abilities can be played after a specified event. Each response ability has its own trigger condition.\n\nA response ability is playable:\n\nEither player can open a \"response window\" any time a game event happens. (see: Game Event)\n\nResponse windows can interrupt effects, steps, or other response windows. If so, pause the interrupted process until the response window closes.\n\nOnce a response window opens, players alternate getting priority to play a response. The active player has priority first.\n\nWhen a player has priority, they can play a valid response ability or pass.\n\nOnce both players pass in succession, the window closes.\n\nA card involved in a response ability's trigger may change zones (due to another effect or cost) after the ability triggers, but before its effect executes. If this happens, the effect cannot move it again, or otherwise interact with it. It may still read properties from it. (see: Scope)\n\nAn attack in the card pool may turn face down after a response ability triggered by its resolution triggers, but before that ability's effect executes. If this happens, the effect cannot move it or otherwise interact with it. It may still read properties from it.",
+    "examples": [
+      "Say a response ability reads \"Response: After this card is destroyed, …\". You can play that response even though the card is in the discard pile when it triggers."
+    ],
+    "notes": [
+      "This is specific to attacks flipping after they resolve, and does not apply to other situations where a card is flipped"
+    ],
+    "bullets": [
+      "If it's on a ready card in the stage",
+      "If it's on an action card in the hand",
+      "If it's on the current attack from the time the card is successfully played until it resolves",
+      "If the response trigger references the card it is on",
+      "A response ability is valid if the game event that opened the window meets its trigger condition. (note: one game event can meet multiple conditions)",
+      "Each response ability can only be played once per response window."
+    ],
+    "seeAlso": [
+      "game-event",
+      "scope"
+    ],
+    "isKeyword": false,
+    "isAbility": true,
+    "category": "R"
+  },
+  {
+    "slug": "reveal",
+    "name": "Reveal",
+    "definition": "If a player reveals a card, it stays revealed until the effect that revealed it is done executing.\n\nRevealed cards are public, and therefore live. (see: Live Cards)\n\nPublic cards may be revealed.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Also, both players must get a chance to read the card.",
+      "Revealing a face down action, attack, or character that does not share both the identity and version with your starting character in the stage does not cause the revealed card to be sent to the discard pile."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "R"
+  },
+  {
+    "slug": "review-step",
+    "name": "Review Step",
+    "definition": "The Review Step is the second part of the Start Phase. It comes after the Ready step and before the Draw Step.\n\nDuring your Review Step, you may discard 1 card. The card discarded during the Review Step has been reviewed.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "By default, only 1 card per turn (a card discarded during the review step) will count as being reviewed each turn. Game effects may modify this and allow other cards to count as being reviewed."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "R"
+  },
+  {
+    "slug": "rival",
+    "name": "Rival",
+    "definition": "Your \"rival\" is your rival in the game.\n\nRival can be used as an adjective, such as \"commit 1 rival foundation\". This means 1 of your rival's foundations.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "R"
+  },
+  {
+    "slug": "ruin",
+    "name": "Ruin",
+    "definition": "Ruin X is an instruction that means your rival must sacrifice X facedown foundations, or as many as possible if they have fewer face down foundations than the value of X.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "R"
+  },
+  {
+    "slug": "rule-effect",
+    "name": "Rule Effect",
+    "definition": "Rule effects are one of the four effect classes. (An effect's \"class\" dictates how or when it is applied, among other things)\n\nA rule effect applies some added rule to the game while it is active.\n\n\"Your rival cannot play action cards during this attack.\" is a rule effect.)\n\nHandle applicable rule effects before any other effects.\n\nIf there are multiple rule effects to handle at the same time, the active player applies theirs first, then the inactive player. Each player applies their effects in any order they want.\n\nEffects that prohibit / prevent, take precedence in any conflict. It does not matter what order rule effects were applied in. (see: Conflict Resolution)",
+    "examples": [
+      ": \"If this attack is added to your momentum, add it face up.\" is a rule effect."
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "conflict-resolution"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "R"
+  },
+  {
+    "slug": "sacrifice",
+    "name": "Sacrifice",
+    "definition": "An effect that instructs a player to sacrifice a card means that player must choose and destroy a card in their stage that matches the instruction.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "safe",
+    "name": "Safe",
+    "definition": "Safe is a keyword ability.\n\nSafe grants the ability \"Attacks cannot be played as a reversal to this attack.\"\n\nCurrently, \"Reversal\" only appears on reprinted cards from older formats.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "scope",
+    "name": "Scope",
+    "definition": "An effect's scope defines its frame of reference.\n\nIf a card was moved or flipped or similar, but an effect needs to get a value from it, scope helps define what value to use.\n\nWhen an effect checks the value of a card property:\n\nSay you have an ability \"Enhance Destroy 1 foundation: This attack gets +X damage. X equals the destroyed foundation's difficulty.\"\n\nIf you destroy a face down foundation for it (which has a difficulty of 0), you get +0 damage. Not whatever difficulty the card has now that it's face up in your discard pile.)\n\nIf an effect is created by another effect, it inherits the original effect's scope.\n\nOtherwise,",
+    "examples": [],
+    "notes": [
+      "The above is a technical explanation, but in practice it's often intuitive."
+    ],
+    "bullets": [
+      "Use the current value if the card hasn't changed zones or publicity during the effect's scope.",
+      "If the card has changed zones or publicity during the scope - use the last value the property had, in the first zone where it was live (during the scope).",
+      "The scope of a Form or Enhance ability's direct effect starts when the ability is announced.",
+      "The scope of a Fired Effect, or the direct effect of a Response ability, begins with the event that triggered it. 42"
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "seal",
+    "name": "Seal",
+    "definition": "A sealed card has no abilities for the rest of the turn.\n\nSpecifically, to \"seal\" a card means to assign a rule effect to it that reads \"this card has no abilities\" until the end of this turn.\n\nYou cannot seal a card that is currently sealed.",
+    "examples": [],
+    "notes": [
+      "Keyword traits are not abilities! Sealing has no effect on them."
+    ],
+    "bullets": [
+      "This also prevents the card from gaining abilities. (see: Conflict Resolution)"
+    ],
+    "seeAlso": [
+      "conflict-resolution"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "search",
+    "name": "Search",
+    "definition": "To search a zone means to look through all the cards in that zone. This includes private or unknown cards.\n\nIf you are searching a zone for a card in order to put it in a destination zone, move the card you found to the transit zone. If searching for a card that meets some requirement(s), reveal it.\n\nIf you search a zone and fail to find a card that meets the instruction's requirement(s), you do not need to prove the absence.\n\nIf you search your deck for any reason, shuffle it afterwards.",
+    "examples": [],
+    "notes": [
+      "The card might be revealed in transit due to its origin or destination zone, regardless. See Transit Zone."
+    ],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "set-icon",
+    "name": "Set Icon",
+    "definition": "The set icon is on the bottom left of a card.\n\nSome abilities can only be played by characters with a\n\ncertain set icon. (see: Play Restrictions)\n\nOtherwise, set icons have no impact on gameplay.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "play-restrictions"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "skill-tree",
+    "name": "Skill Tree",
+    "definition": "A Skill Tree is a list of abilities that can be granted to a character when they level up. A character using a Skill Tree will indicate which skill tree(s) they have access to. A character with a skill tree will also have at least one ability that causes them to level up. When a character levels up, they unlock the next ability listed on their skill tree. Unlocking means that character gains the unlocked ability for the rest of the game.\n\nA Skill Tree is an extension of the character, though not specifically a character card itself. Skill Trees don't exist in any game zone.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "This means that if the character is sealed, their unlocked abilities will return at the end of the current turn or whenever the predefined duration ends.",
+      "Unlocked abilities are not considered to be printed on the character card but are still character abilities.",
+      "Because Skill Trees don't exist in a game zone, they cannot be discarded, spent, removed, committed, frozen, sealed, destroyed, or any other effect that would apply a state to them."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "shift",
+    "name": "Shift",
+    "definition": "Shift is a keyword ability. Shift grants the continuous ability \"As this card clears from your card pool during your End Phase, if you played it, you may build it transformed (opposite side up).\"",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "slam",
+    "name": "Slam",
+    "definition": "A keyword trait. (see: Keyword Traits)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "speed",
+    "name": "Speed",
+    "definition": "The number in the arrow icon of an attack is its speed.\n\nWhen you try to block, the difficulty you check against is equal to: The speed of the attack + the block modifier of your block + progressive difficulty. (see: Progressive Difficulty)\n\nSpeed can be negative (see: Negative Numbers). It gets included in block difficulty with no modification.\n\n(-2 + 3), plus progressive.)",
+    "examples": [
+      "Say you have a -2 speed attack, and your rival wants to block with a +3 modifier. The difficulty they check against is 1"
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "progressive-difficulty",
+      "negative-numbers"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "spend",
+    "name": "Spend",
+    "definition": "To spend a card means to move it from your momentum to your discard pile.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "If an effect is looking for a card to have been discarded from momentum, a card that has been spent counts, and vice versa."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "stage",
+    "name": "Stage",
+    "definition": "The stage is one of the game zones.\n\nCards in the stage can be ready or committed.\n\n(see: Ready, Committed)\n\nAbilities on ready cards in the stage are playable.\n\n(see: Played Ability)\n\nTo \"build\" a card means to add it to your stage. (see: Build)\n\nYou can arrange the cards in your stage in any way you'd like. So long as their presence and state (ready or committed) are clear to both players.\n\nAny card that gets flipped, or built face down, must be kept distinct and identifiable for the rest of the turn.\n\nIf it's not specified, face down cards from zones other than the hand build face down. Anything else builds face up.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "After that turn, they can be indistinguishable. Unless you need to track an assigned effect, or whether it's been readied, or similar."
+    ],
+    "seeAlso": [
+      "ready",
+      "played-ability",
+      "build"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "stamina",
+    "name": "Stamina",
+    "definition": "On a backup, the number over the green heart icon is their stamina.\n\nWhen a backup enters the stage, it enters with maximum stamina.\n\nA backup can lose stamina due to costs or effects, or by taking damage. (see: Damage)\n\nWhen a backup has 0 or less stamina, destroy it.\n\nLike health, stamina is a maximum.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Losing stamina for any reason other than a successful attack does not count as taking damage.",
+      "If a backup would gain stamina beyond the maximum, it gains up to the maximum instead.",
+      "If a backup would gain stamina but it is already at the maximum, it fails to gain stamina at all.",
+      "A backup can never have stamina above its maximum. If a backup's maximum stamina is reduced below its current stamina, its current stamina is also reduced to the new maximum."
+    ],
+    "seeAlso": [
+      "damage"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "start-phase",
+    "name": "Start Phase",
+    "definition": "The Start Phase is the first part of the turn, and comes before the Combat Phase.\n\nThe Start Phase has three steps. See their respective entries for details.\n\nReady Step\n\nReview Step\n\nDraw Step",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "starting-the-game",
+    "name": "Starting the Game",
+    "definition": "Before the game begins, go through these steps to set up.\n\n1. Both players place their starting character in their stage. They put their deck in their play area. 2. Randomly decide who chooses the player to go first. The first player commits their character. 3. Players set their health to their character's maximum health. Keep track with pen and paper, tokens, a tracker or any other means. 4. Any fired effects that trigger \"before the game begins\" happen now. a. No other game events can happen before the game starts.\n\n5. Players shuffle their decks until sufficiently randomized. They may shuffle or cut their rival's deck. 6. Players draw up to their character's starting hand size. 7. Starting with the first player, each player may mulligan. To mulligan cards, put the cards on the bottom of your deck and draw up to your hand size. a. The first player may mulligan their entire hand. If their new hand does not contain any\n\nfoundations, they may reveal it and mulligan a second time. b. The second player may choose any number of cards in their hand to mulligan, only one time. c. After mulligans, any player who mulliganed must shuffle their deck. 8. The game begins. The player who goes first skips the Start Phase of their first turn. Neither player may attack on their first turn of the game. 9. On their first turn only, the second player may draw 1 additional card during the Draw Step. This means the second player will draw above their starting hand size.",
+    "examples": [
+      "Eraser Head adds a copy of ERASE! to his discard pile before the game begins. This is done before decks are shuffled."
+    ],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "static-effect",
+    "name": "Static Effect",
+    "definition": "A static effect is the effect of a continuous ability on a card. (see: Continuous Ability)\n\nA static effect is active so long as the card it is on is live (and has the continuous ability).",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "As an exception, a static effect of a continuous ability on a character card is not active unless that card is a player's starting character."
+    ],
+    "seeAlso": [
+      "continuous-ability"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "stun",
+    "name": "Stun",
+    "definition": "Stun is a keyword ability.\n\nStun grants \"Enhance: Your rival commits X foundations. X equals the rating of the Stun keyword granting this ability.\"\n\nThe Stun rating is the number next to the Stun keyword. \"Stun: 2\" has a Stun rating of 2.\n\nA card committed by a stun effect can be referred to as a stunned card. Or, if a card ability references it being stunned, it is referencing being committed due to a stun effect.",
+    "examples": [],
+    "notes": [
+      "Your rival can't commit their character to stun! It's not a cost, so they can only commit foundations"
+    ],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "symbol",
+    "name": "Symbol",
+    "definition": "Each card has three symbols on the bottom left.\n\nThere are twelve different symbols, as well as infinity.\n\n(see: Infinity)\n\nAir All Chaos Death Earth Evil Fire Good Life Order Void Water\n\nWhen deckbuilding, every card in your deck must share a chosen symbol, including your starting character. (see: Deck Construction)\n\nThis rule is adjusted by the new Attuned symbols. See: Attuned.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "infinity",
+      "deck-construction"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "S"
+  },
+  {
+    "slug": "tech",
+    "name": "Tech",
+    "definition": "A keyword trait. (see: Keyword Traits)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "T"
+  },
+  {
+    "slug": "tenacious",
+    "name": "Tenacious",
+    "definition": "Tenacious means that the ability is playable while committed. Cards that have the text \"Playable while committed\" as part of an ability are considered to read as if they had the Tenacious term applied.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "T"
+  },
+  {
+    "slug": "terrain",
+    "name": "Terrain",
+    "definition": "Terrain is a keyword ability.\n\nTerrain grants \"After this card is added to your stage, destroy all other terrain cards.\"",
+    "examples": [],
+    "notes": [
+      "This is actually redundant. A pause condition destroys other Terrain cards anyway. (see: Pause Condition) But the ability has this text for clarity"
+    ],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "T"
+  },
+  {
+    "slug": "this-attack",
+    "name": "This Attack",
+    "definition": "If an enhance, a response on the current attack, or a non-attack card, refers to \"this attack\", it's looking for the attack (if there is one) that is in progress. That is, an attack that's either in its attack sequence, being played, was just played, or just resolved (i.e. if something triggered on the attack resolving).\n\nIn a continuous or response ability on an attack, \"This attack\" only refers to the attack the ability is on.\n\n\"Your attack\" or \"Your rival's attack\" (in any scenario) refer to the attack in a state of progress, provided it is either yours or your rival's, respectively.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "T"
+  },
+  {
+    "slug": "throw",
+    "name": "Throw",
+    "definition": "Throw is a keyword ability.\n\nThrow grants \"If this attack is completely blocked, it deals half damage (rounded up) during the Damage Step.\"",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "T"
+  },
+  {
+    "slug": "titan",
+    "name": "Titan",
+    "definition": "A keyword trait. (see: Keyword Traits)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "T"
+  },
+  {
+    "slug": "title",
+    "name": "Title",
+    "definition": "A title is a unique identifier used to represent a specific version of a character. A character's Title appears after, or underneath their name or identity on the character card.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "T"
+  },
+  {
+    "slug": "transform",
+    "name": "Transform",
+    "definition": "To transform a card is to change it to its opposite side. Cards that transform have a default state of the front side being the face of the card.\n\nIf a transformed card leaves its current zone of play, changes facing, or changes publicity, it will return to the front side unless instructed otherwise by game text.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "T"
+  },
+  {
+    "slug": "transit-zone",
+    "name": "Transit Zone",
+    "definition": "The Transit Zone is one of the game zones.\n\nThe transit zone has no physical location. It's a temporary, abstract zone that holds cards as they go from one zone to another.\n\nMost commonly, cards are in the transit zone while they're in the process of being played.\n\nCards in the transit zone can be public, private, or unknown. (see: Public, Private, Unknown)\n\nIf a card is being played, it gets a new current state as soon as it's in the transit zone.\n\nIf a card is in the transit zone for another reason, if it has a current state in its origin zone, it keeps it until it reaches its destination. Then the current state will refresh.\n\nGoing to and from the transit zone does not count as a zone change in and of itself. The zone change is the complete action of going from the origin zone, to transit, to the destination zone.\n\nCards that relocate within a zone do not go through the transit zone.",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Less commonly, an effect may trigger after a card leaves a zone, or before a card arrives in a zone. At this point in time, it will be in the transit zone.",
+      "If the card was public in its original zone, or will be public in its destination, it's public in transit. (see: Public)",
+      "If the card is not public in transit, it's private if it was private in its origin zone, or will be in its destination. (see: Private)",
+      "Otherwise, unknown cards going to a zone where they will still be unknown, stay unknown in transit. (see: Unknown)",
+      "If the card turns face up when it enters the transit zone, its current state refreshes at that time as usual.",
+      "As mentioned above, entering transit counts as leaving the origin zone. A card will be in the transit zone \"before entering\" the destination zone."
+    ],
+    "seeAlso": [
+      "public",
+      "private",
+      "unknown"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "T"
+  },
+  {
+    "slug": "twice-per-turn",
+    "name": "Twice per turn",
+    "definition": "[Twice per turn] is a play restriction. (see: Play Restrictions)\n\n[Twice per turn] means \"This ability may only be played twice per turn.\"",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "play-restrictions"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "T"
+  },
+  {
+    "slug": "unblockable",
+    "name": "Unblockable",
+    "definition": "Attacks that are Unblockable cannot be blocked by any means. The defending player may not play a block during the block step and an effect cannot cause the block status to be set.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "U"
+  },
+  {
+    "slug": "unflip",
+    "name": "Unflip",
+    "definition": "To unflip a card is to turn a face down card face up.\n\nThese are newly gained abilities, even if the card was face up (and had those same abilities) earlier in the turn. You haven't played these new abilities yet. So, you can use things like [Once per turn] abilities. It doesn't matter what happened with the abilities the card used to have before it was flipped.)",
+    "examples": [],
+    "notes": [
+      "Face down cards in the stage have no abilities. If you unflip one, that card's current state will refresh, and it will now have abilities."
+    ],
+    "bullets": [
+      "You can't unflip a face up card."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "U"
+  },
+  {
+    "slug": "unique",
+    "name": "Unique",
+    "definition": "Unique is a keyword ability.\n\nUnique grants \"While this card is in your stage, if there are 2 or more copies of it in your stage, sacrifice the copy that was most recently added.\"\n\n(see: Pause Condition) But the ability has this text for clarity.)",
+    "examples": [],
+    "notes": [
+      "This is actually redundant. A pause condition destroys duplicates of Unique cards anyway."
+    ],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "U"
+  },
+  {
+    "slug": "unseal",
+    "name": "Unseal",
+    "definition": "To unseal a card means to remove the rule effect of Seal.\n\nThese are newly gained abilities, even if the card was face up (and had those same abilities) earlier in the turn. You haven't played these new abilities yet. So, you can use things like [Once per turn] abilities. It doesn't matter what\n\nhappened with the abilities the card used to have before it was sealed.)",
+    "examples": [],
+    "notes": [
+      "Sealed cards in the stage have no abilities. If you unseal one, that card's current state will refresh, and it will now have abilities."
+    ],
+    "bullets": [
+      "You can't unseal a card that is not sealed."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "U"
+  },
+  {
+    "slug": "unknown",
+    "name": "Unknown",
+    "definition": "Unknown cards are cards neither player can look at.\n\nCards in your deck are unknown.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "U"
+  },
+  {
+    "slug": "version",
+    "name": "Version",
+    "definition": "On character cards, the version can be represented in one of two ways. The first is the roman numeral to the top right of the text box. The second is by the character having a Title. (see: Title)\n\nYou can only attach characters with the same identity and version as your starting character. (see: Character)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [
+      "title",
+      "character"
+    ],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "V"
+  },
+  {
+    "slug": "weapon",
+    "name": "Weapon",
+    "definition": "A keyword trait. (see: Keyword Traits)",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": true,
+    "isAbility": false,
+    "category": "W"
+  },
+  {
+    "slug": "winning-the-game",
+    "name": "Winning The Game",
+    "definition": "You win the game if your rival is at 0 or less health, or is unable to cycle due to not having enough cards in their deck.",
+    "examples": [],
+    "notes": [],
+    "bullets": [],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "W"
+  },
+  {
+    "slug": "x",
+    "name": "X",
+    "definition": "When a card refers to X:",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "The effect may define what X is.",
+      "If not, X may have been part of a cost leading to the effect.",
+      "If X is not predefined, the player who owns the ability (for a cost) or effect can pick any valid number to be X.",
+      "X cannot be negative. If it would be negative for any reason, it is zero instead."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "X"
+  },
+  {
+    "slug": "zone-changes",
+    "name": "Zone Changes",
+    "definition": "When a card changes game zones:",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Assigned effects on that card end (see: assigned effects)",
+      "The card's current state refreshes",
+      "Any counting history on the card (i.e. whether the card has been readied, or has its once per turn ability been used, etc.) is reset."
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "Z"
+  },
+  {
+    "slug": "zones",
+    "name": "Zones",
+    "definition": "See:",
+    "examples": [],
+    "notes": [],
+    "bullets": [
+      "Attack Zone",
+      "Block Zone",
+      "Game Zone"
+    ],
+    "seeAlso": [],
+    "isKeyword": false,
+    "isAbility": false,
+    "category": "Z"
+  }
+]
