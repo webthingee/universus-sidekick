@@ -35,11 +35,28 @@ per-term entries with definitions, examples, notes, bullets, and cross-reference
 
 > Source PDFs are git-ignored (copyrighted game material) and are not published.
 
-## Deploy to GitHub Pages
+## Hosting (GitHub Pages)
 
-1. In `docusaurus.config.ts`, set `organizationName` and `projectName` to your
-   GitHub username and repo name. The site will be served at
-   `https://<organizationName>.github.io/<projectName>/`.
-2. Push to `main`. The workflow in `.github/workflows/deploy.yml` builds and
-   deploys automatically.
-3. In the repo's **Settings → Pages**, set **Source: GitHub Actions**.
+**Live at:** https://webthingee.github.io/universus-sidekick/
+
+The site is already deployed. Every push to `main` rebuilds and republishes it
+automatically via `.github/workflows/deploy.yml` (watch progress in the repo's
+**Actions** tab). Typical loop:
+
+```bash
+git add -A
+git commit -m "…"
+git push        # → live in ~1 minute
+```
+
+Config lives in `docusaurus.config.ts` (`organizationName: 'webthingee'`,
+`projectName: 'universus-sidekick'`, which sets `baseUrl: '/universus-sidekick/'`).
+
+### Setting this up on a fresh repo
+
+1. Set `organizationName` / `projectName` in `docusaurus.config.ts` (URL is
+   `https://<organizationName>.github.io/<projectName>/`).
+2. `gh repo create <name> --public --source=. --push`
+3. Enable Pages with **Source: GitHub Actions** — either in **Settings → Pages**,
+   or `gh api -X POST repos/<org>/<name>/pages -f build_type=workflow`.
+4. Push to `main`; the workflow builds and deploys.
