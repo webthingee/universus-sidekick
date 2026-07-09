@@ -256,8 +256,8 @@
   text-transform: uppercase;
   padding: 0.15rem 0.5rem;
   border-radius: 6px;
-  color: #fff;
-  background: var(--ifm-color-danger, #e5484d);
+  color: #2a1400;
+  background: #f6a204; /* Amber — keyword marker */
 }
 
 .letterBadge {
@@ -415,7 +415,7 @@
   height: 0.5rem;
   border-radius: 50%;
   flex-shrink: 0;
-  background: var(--ifm-color-danger, #e5484d);
+  background: #f6a204; /* Amber — keyword marker */
 }
 
 .chevron {

@@ -249,7 +249,7 @@ function AlphabetScrubber({
 
 export default function GlossaryPage(): ReactNode {
   const [query, setQuery] = useState('');
-  const [filterId, setFilterId] = useState('all');
+  const [filterId, setFilterId] = useState('keywords');
   const [view, setView] = useState<'cards' | 'list'>('list');
   const [flashSlug, setFlashSlug] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<Set<string>>(() => new Set());
@@ -383,7 +383,7 @@ export default function GlossaryPage(): ReactNode {
       description="A searchable glossary of UniVersus CCG rules terms.">
       <main className={styles.page}>
         <div className={styles.intro}>
-          <h1 className={styles.pageTitle}>Traits &amp; Abilities</h1>
+          <h1 className={styles.pageTitle}>Glossary</h1>
         </div>
         <div className={styles.controls} ref={controlsRef}>
           <div className={styles.controlsRow}>
