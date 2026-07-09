@@ -1,13 +1,13 @@
 ---
-title: Solo AI Turn Flow
+title: Solo AI
 sidebar_position: 2
 ---
 
-# Solo AI Turn Flow
+# Solo AI
 
-:::note Coming soon
-The solo-play AI turn flow will live here.
+Play UniVersus solo against a rules-driven AI opponent.
 
-It hasn't been added yet — for now, head to the **[Glossary](/glossary)** to look up
-any rules term.
-:::
+- **[Solo AI Turn Flow](./solo-ai-turn-flow.md)** — the step-by-step procedure the AI
+  follows on its turn, when attacking, building, and blocking.
+- **[Solo AI Details](./solo-ai-details.md)** — background, rationale, and design notes.
+  *(Coming soon.)*

@@ -13,7 +13,7 @@ const projectName = 'universus-sidekick';
 const config: Config = {
   title: 'UniVersus Sidekick',
   tagline: 'A searchable reference for the UniVersus CCG',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/sidekickFavicon.png',
 
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -98,7 +98,8 @@ const config: Config = {
           items: [
             {label: 'Glossary', to: '/glossary'},
             {label: 'How to Play', to: '/docs/how-to-play'},
-            {label: 'Solo AI Turn Flow', to: '/docs/solo-ai'},
+            {label: 'Anatomy of a Turn', to: '/docs/anatomy-of-a-turn'},
+            {label: 'Solo AI', to: '/docs/solo-ai'},
           ],
         },
       ],
