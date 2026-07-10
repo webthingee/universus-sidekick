@@ -29,6 +29,71 @@ const entries = glossaryData as Entry[];
 const slugToName = new Map(entries.map((e) => [e.slug, e.name]));
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
+// Normalize a term name so inline "(see: ...)" references resolve to a glossary
+// entry even when they differ in case, plurality, punctuation, or spacing. Both
+// entry names and referenced terms run through this, so consistency matters more
+// than linguistic correctness (e.g. "Keyword Traits" and "Keyword Trait" both
+// collapse to the same key).
+function normKey(s: string): string {
+  let k = s
+    .toLowerCase()
+    .replace(/[.\s]+$/, '')
+    .trim()
+    .replace(/_+/g, '_')
+    .replace(/\s+/g, ' ');
+  if (k.endsWith('ies')) k = k.slice(0, -3) + 'y';
+  else if (!k.endsWith('ss') && k.endsWith('s')) k = k.slice(0, -1);
+  return k;
+}
+
+// Look up a glossary slug from a term name (first entry wins on collisions).
+const nameKeyToSlug = new Map<string, string>();
+for (const e of entries) {
+  const k = normKey(e.name);
+  if (!nameKeyToSlug.has(k)) nameKeyToSlug.set(k, e.slug);
+}
+
+// Matches an inline cross-reference: the literal "see:" (any case) followed by
+// the referenced term list, up to the closing paren or line break.
+const SEE_RE = /see:\s*([^)\n]*)/gi;
+// Splits a term list into terms while keeping the "," and "and" separators.
+const TERM_SEP_RE = /(\s*,\s*|\s+and\s+)/;
+
+// Collect the slugs of glossary entries referenced by "(see: ...)" text within a
+// string, so they can be surfaced as "See also" links without altering the text.
+function extractRefSlugs(text: string, into: string[]): void {
+  let m: RegExpExecArray | null;
+  SEE_RE.lastIndex = 0;
+  while ((m = SEE_RE.exec(text)) !== null) {
+    for (const part of m[1].split(TERM_SEP_RE)) {
+      if (!part || TERM_SEP_RE.test(part)) continue;
+      const trimmed = part.trim();
+      const slug = trimmed ? nameKeyToSlug.get(normKey(trimmed)) : undefined;
+      if (slug) into.push(slug);
+    }
+  }
+}
+
+// Build the ordered, de-duplicated "See also" list for an entry: its explicit
+// seeAlso links first, then any entries referenced inline via "(see: ...)".
+function seeAlsoSlugsFor(entry: Entry): string[] {
+  const parsed: string[] = [];
+  extractRefSlugs(entry.definition, parsed);
+  entry.bullets.forEach((b) => extractRefSlugs(b, parsed));
+  entry.examples.forEach((ex) => extractRefSlugs(ex, parsed));
+  entry.notes.forEach((n) => extractRefSlugs(n, parsed));
+
+  const out: string[] = [];
+  const seen = new Set<string>();
+  for (const slug of [...entry.seeAlso, ...parsed]) {
+    if (slug && slug !== entry.slug && !seen.has(slug)) {
+      seen.add(slug);
+      out.push(slug);
+    }
+  }
+  return out;
+}
+
 const FILTERS: {id: string; label: string; test: (e: Entry) => boolean}[] = [
   {id: 'all', label: 'All', test: () => true},
   {id: 'keywords', label: 'Keywords', test: (e) => e.isKeyword},
@@ -61,6 +126,7 @@ function matchesQuery(e: Entry, q: string): boolean {
 
 // Shared inner content for a term (used by both the card and the A–Z list row).
 function EntryBody({entry, onRef}: {entry: Entry; onRef: (slug: string) => void}): ReactNode {
+  const seeAlso = seeAlsoSlugsFor(entry);
   return (
     <>
       {entry.definition
@@ -94,10 +160,10 @@ function EntryBody({entry, onRef}: {entry: Entry; onRef: (slug: string) => void}
         </div>
       ))}
 
-      {entry.seeAlso.length > 0 && (
+      {seeAlso.length > 0 && (
         <div className={styles.seeAlso}>
           <span className={styles.seeAlsoLabel}>See also</span>
-          {entry.seeAlso.map((slug) => (
+          {seeAlso.map((slug) => (
             <a
               key={slug}
               href={`#${slug}`}
